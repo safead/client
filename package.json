@@ -1,0 +1,36 @@
+{
+  "name": "safe-frontend",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "del": "latest"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-change": "^1.0.0",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-if": "^2.0.2",
+    "gulp-manifest": "latest",
+    "gulp-uglify": "latest",
+    "run-sequence": "^2.2.1"
+  },
+  "description": "Safe.ad Frontend",
+  "version": "1.7.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safead/front.git"
+  },
+  "keywords": [
+    "safe.ad mail, email, secure, encrypted, file, storage, free, safe, p2p, end-to-end, cloud, new, decentralized"
+  ],
+  "author": "Safe Communications S.L.",
+  "bugs": {
+    "url": "https://github.com/safead/front/issues"
+  },
+  "homepage": "https://github.com/safead/front#readme"
+}

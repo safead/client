@@ -1,0 +1,3097 @@
+<!--[dialog overlay]-->
+<div class="overlay open" id="dialogOverlay"></div>
+
+<!--[dialog modal]-->
+<div class="popup-overlay block" id="dialog">
+	<div class="popup">
+		<div class="popup-content">
+			<h2 class="d-text"></h2>
+			<p class="d-text"></p>
+			<p class="help d-text"></p>
+		</div>
+	</div>
+</div>
+
+<!--[dialog info]-->
+<div class="popup-overlay block" id="dialog">
+	<div class="popup">
+		<div class="popup-content">
+			<h2 class="d-text"></h2>
+			<p class="d-text"></p>
+			<p class="help d-text"></p>
+			<div class="buttons-field clearfix">
+				<button class="btn btn-wide d-btn" id="btnClose"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[dialog confirm]-->
+<div class="popup-overlay block" id="dialog">
+	<div class="popup popup-warning">
+		<div class="popup-content">
+			<h2 class="d-text"></h2>
+			<p class="d-text"></p>
+			<p class="help d-text"></p><br />
+			<div class="buttons-field clearfix">
+				<button class="btn d-btn" id="btnSubmit"></button>
+				<button class="btn btn-cancel d-btn" id="btnClose"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[dialog upgrade]-->
+<div class="popup-overlay block" id="dialog">
+	<div class="popup popup-warning">
+		<div class="popup-content">
+			<h2 class="d-text"></h2>
+			<p class="d-text"></p>
+			<p class="help d-text"></p><br />
+			<div class="buttons-field clearfix">
+				<button class="btn d-btn" id="btnSubmit"></button>
+				<button class="btn btn-cancel d-btn" id="btnClose"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[dialog 3 buttons]-->
+<div class="popup-overlay" id="dialog">
+	<div class="popup popup-warning">
+		<div class="popup-content">
+			<h2 class="d-text"></h2>
+			<p class="d-text"></p>
+			<p class="help d-text"></p>
+			<div class="buttons-field clearfix">
+				<button class="button btn-cancel d-btn" id="btnClose"></button>
+				<button class="btn d-btn" id="btnCancel"></button>
+				<button class="button d-btn" id="btnSubmit"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[dialog captcha]-->
+<div class="popup-overlay block" id="dialog">
+	<div class="popup">
+		<div class="popup-content">
+			<h2 class="d-text"></h2>
+			<p class="d-text"></p>
+			<p class="help d-text"></p>
+			<div class="form-container">
+				<div class="captcha"><img src=""></div>
+				<div class="form-field">
+					<label for="dialog-captcha" class="d-text"></label>
+					<input type="text" id="input">
+				</div>
+				<div class="buttons-field clearfix">
+					<button class="btn d-btn" id="btnSubmit"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[dialog input]-->
+<div class="popup-overlay block" id="dialog">
+	<div class="popup">
+		<div class="popup-content">
+			<h2 class="d-text"></h2>
+			<div class="form-container">
+				<div class="control-field control-field--popup" id="popupInputBlock">
+					<label class="control-field__label d-text"></label>
+					<input class="control-field__input d-input" id="inputValue">
+					<span class="control-field__check control-field__check--popup"><span class="icon-check h" id="iconCheck"></span> <span class="control-field__check__text control-field__check__text--with-ico" id="hint"></span></span>
+				</div>
+				<div class="buttons-field clearfix">
+					<button class="btn d-btn" id="btnSubmit" disabled></button>
+					<button class="btn btn-cancel d-btn" id="btnClose"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[dialog contact]-->
+<div class="popup-overlay block" id="dialog">
+	<div class="popup">
+		<div class="popup-content">
+			<h2 class="d-text"></h2>
+			<div class="form-container">
+				<div class="form-field">
+					<label for="contmail" class="d-text"></label>
+					<input class="d-input" maxlength="50" placeholder="[>F344<]" id="name">
+				</div>
+				<div class="form-field" id="emailErrorBlock">
+					<label for="contname" class="d-text"></label>
+					<input class="d-input" maxlength="50" placeholder="[>F344<]" id="email">
+				</div>
+				<div class="control-field control-field--popup">
+					<label for="contfolder" class="control-field__label control-field__label--default d-text"></label>
+					<select id="folderSelect"></select>
+				</div>
+				<div class="buttons-field clearfix">
+					<button class="btn d-btn" id="btnSubmit"></button>
+					<button class="btn btn-cancel d-btn" id="btnClose"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[dialog textarea]-->
+<div class="popup-overlay block" id="dialog">
+	<div class="popup textarea">
+		<div class="popup-content">
+			<h2 class="d-text"></h2>
+			<div class="form-container">
+				<div class="control-field control-field--popup">
+					<label class="control-field__label d-text"></label>
+					<textarea class="control-field__input" id="popupTextarea"></textarea>
+					<p class="help d-text"></p><br />
+				</div>
+				<div class="buttons-field clearfix">
+				<button class="btn d-btn" id="btnSubmit"></button>
+				<button class="btn btn-cancel d-btn" id="btnClose"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[dialog set password]-->
+<div class="popup-overlay" id="dialog">
+	<div class="popup">
+		<div class="popup-content">
+			<h2>[>F121<]</h2>
+			<p>[>F526<]</p>
+			<div class="form-container">
+				<div class="control-field control-field--popup passPower" id="passwordBlock">
+					<label class="control-field__label">[>F121<]:</label>
+					<input type="password" class="control-field__input noEmpty" placeholder="[>344<]" id="password">
+					<span class="control-field__check noEmpty">
+						<span id="passwordIcon"></span>
+						<span class="control-field__check__text" id="passwordHint"></span>
+					</span>
+					<span class="visiblePass" id="passVisible"><span class="sprite sprite-eye"></span></span>
+				</div>
+				<div class="control-field control-field--popup confirmIco" id="passwordConfirmBlock">
+					<label class="control-field__label">[>F21<]:</label>
+					<input type="password" class="control-field__input" placeholder="[>344<]" id="passwordConfirm">
+					<span class="sprite sprite-gen-password" id="passwordGenerate"></span>
+					<span class="control-field__check control-field__check--popup"><span class="control-field__check__text" id="passwordConfirmHint"></span></span>
+					<span class="control-field__check control-field__check--popup h hide" id="passwordConfirmIcon"></span>
+				</div>
+				<div class="control-field control-field--popup ">
+					<label class="control-field__label">[>F527<]:</label>
+					<input type="text" class="control-field__input" autocorrect="off" autocapitalize="off" placeholder="[>320<]" maxlength="100" id="hint">
+				</div>
+				<div class="buttons-field clearfix">
+					<button type="submit" class="btn d-btn disabled" id="btnSubmit"></button>
+					<button class="btn btn-cancel d-btn" id="btnClose"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[dialog avatar]-->
+<div class="popup-overlay" id="dialog">
+	<div class="popup">
+		<div class="popup-content">
+			<div class="form-container">
+				<div class="" id="cropperImage">
+					<div class="sprite sprite-rotate-up" id="rotateUp"></div>
+					<div class="sprite sprite-rotate-down" id="rotateDown"></div>
+				</div>
+				<div class="buttons-field crop-buttons-field clearfix">
+					<button type="submit" class="button d-btn" id="btnSubmit"></button>
+					<button class="button btn-cancel d-btn" id="btnClose"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[dialog 2x auth]-->
+<div class="popup-overlay" id="dialog">
+	<div class="popup googleAuth">
+		<div class="popup-content">
+			<h2>[>F555<]</h2>
+			<p>[>F558<]:</p>
+			<div class="codeArea loading" id="popupLoading">
+				<div class="imgOuter">
+					<img id="twoFactorImage"/>
+				</div>
+				<div class="content">
+					<div class="codeValue" id="twoFactorCode"></div>
+					<p class="text">[>F559<]:</p>
+					<div class="insertCode">
+						<button class="button" disabled id="btnSubmit">[>F560<]</button>
+						<div class="inputOuter">
+							<input type="text" id="twoFactorCheckCode" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="buttons-field left clearfix">
+				<button type="submit" class="button btn-cancel" id="btnClose">[>F164<]</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[dialog 2x auth confirm]-->
+<div class="popup-overlay" id="dialog">
+	<div class="popup googleAuth">
+		<div class="popup-content">
+			<h2>[>F112<]</h2>
+			<p>[>F561<]</p>
+			<div class="codeValue" id="twoFactorCode"></div>
+			<p class="error">[>F562<]</p>
+			<div class="buttons-field clearfix">
+				<button class="button" id="btnClose">[>F102<]</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[interface]-->
+<div class="mainpage" id="interfaceOuter">
+	<header class="header" id="headerTop"></header>
+	<section class="mainpage-content" id="contentBody"></section>
+	<div class="mainclear-footer"></div>
+</div>
+<footer class="mainfooter">
+	<div class="mainfooter-inner">
+		<span class="mainfooter-copyright">&copy; [>UDOMAIN<], [>YEAR<] &mdash; [>F3<]</span>
+		<div class="rightLinks">
+			<a href="terms">[>A15<]</a>
+			<a href="privacy">[>A158<]</a>
+			<a href="faq">[>A159<]</a>
+			<a href="plans">[>A282<]</a>
+			<a href="contact">[>A125<]</a>
+		</div>
+	</div>
+</footer>
+
+<!--[interface inner]-->
+<div class="page clearfix" id="mainBlock">
+	<header class="header" id="panelMain">
+		<div class="header-top">
+			<a class="header-logo" id="headerLogo"></a>
+		</div>
+		<div class="header-menu">
+			<div class="menu">
+				<a class="btn header-compose" id="newCompose">[>F169<]</a>
+				<!--folders-->
+				<ul class="menu-default-folders menu-folders" id="folders"></ul>
+				<ul class="menu-custom-folders menu-folders" id="customFolders">
+					<div class="menu-custom-folders-add-hidden" id="folderAddBlock">
+						<input type="text" placeholder="[>F168<]" id="newFolderName" maxlength="20">
+						<button class="btn btn-cancel" id="btnNewFolderCancel">[>F164<]</button>
+						<button type="submit" class="btn" id="btnNewFolderSubmit">[>F171<]</button>
+					</div>
+					<a class="menu-custom-folders-add" id="folderAddButton"><span class="icon icon-plus"></span>[>F170<]</a>
+				</ul>
+				<!--files-->
+				<ul class="menu-default-folders menu-folders" id="files">
+					<li class="menu-folders-item">
+						<a class="menu-folders-folder" href="storage" id="filesTitle">[>A331<]</a>
+						<span class="menu-folders-total" id="filesCount"></span>
+						<span class="menu-folders-new" id="filesSizeBlock">[ <span class="menu-folders-new__text" id="filesSize"></span> ]</span>
+					</li>
+				</ul>
+				<div class="menu-contacts-folders menu-folders">
+					<a class="menu-folders-folder menu-contacts-folders-folder" href="contacts" id="contactsTitle"><span class="icon icon-business_contact"></span>[>F124<]</a>
+					<span class="menu-folders-total" id="contactsTotal"></span>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="page-content">
+		<div id="contentBody"></div>
+		<div class="clear-footer"></div>
+	</section>
+</div>
+<footer class="footer" id="footer">
+	<div class="footer-inner">
+		<span class="footer-copyright">&copy; [>UDOMAIN<], [>YEAR<] - [>F3<]</span>
+		<div class="rightLinks">
+			<a href="terms">[>A15<]</a>
+			<a href="privacy">[>A158<]</a>
+			<a href="faq">[>A159<]</a>
+			<a href="plans">[>A282<]</a>
+			<a href="contact">[>A125<]</a>
+		</div>
+	</div>
+</footer>
+
+<!--[offline]-->
+<div class="errorOverlay" id="offlineBlock">
+	<div class="errorArea">
+		<span class="sprite sprite-offline"></span>
+		<h2>[>A5<]</h2>
+		<p>[>248<]. <a id="retryConnection">[>F249<]</a></p>
+	</div>
+</div>
+
+<!--[loader]-->
+<div class="loader-overlay inner" id="loader">
+	<div class="loader" id="noProgress">
+		<span class="logo-s"></span>
+		<span class="progressBar">
+			<span id="bootProgress"></span>
+		</span>
+		<span class="text" id="loaderMessage"></span>
+	</div>
+</div>
+
+<!--[index]-->
+<div class="header-middle">
+	<div class="header-middle-inner">
+		<h1 class="header-middle-header">[>F3<]</h1>
+		<p class="header-middle-header-after">[>450<]</p>
+		<div class="signUpTop">
+			<a href="signup" class="button btn-green">[>A278<]</a>
+		</div>
+	</div>
+	<div class="envelope-main">
+		<div class="envelope-main-inner"></div>
+		<a href="https://itunes.apple.com/us/app/safe-encrypted-email-file/id1174360802?&mt=8" class="appStore"></a>
+		<a href="#" class="playMarket"></a>
+	</div>
+</div>
+<div class="safeFiles">
+	<div class="greenSide">
+		<div class="allContent">
+			<div class="innerSafeFiles">
+				<div class="item blue">
+					<span class="sprite sprite-safe-file"></span>
+					<div class="title">[>A331<]</div>
+					<div class="description">[>F416<]</div>
+				</div>
+				<div class="item green">
+					<span class="sprite sprite-secure-feedback"></span>
+					<div class="title">[>A400<]</div>
+					<div class="description">[>F418<]</div>
+				</div>
+			</div>
+			<a class="button btn-grey jSignup" href="signup">[>F417<]</a>
+		</div>
+	</div>
+</div>
+<div class="advantages">
+	<h2>[>F419<]?</h2>
+	<div class="inner clearfix">
+		<div class="item">
+			<span class="sprite sprite-cryptographic"></span>
+			<div class="text">[>420<]
+				<div class="tip">
+					<div class="innerTip">[>421<]</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="sprite sprite-verification"></span>
+			<div class="text">[>422<]
+				<div class="tip">
+					<div class="innerTip">[>423<] [>354<]</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="sprite sprite-max-performance"></span>
+			<div class="text">[>424<]
+				<div class="tip">
+					<div class="innerTip">[>425<]</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="sprite sprite-no-traces"></span>
+			<div class="text">[>426<]
+				<div class="tip">
+					<div class="innerTip">[>427<]</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="sprite sprite-encryption"></span>
+			<div class="text">[>428<]
+				<div class="tip">
+					<div class="innerTip">[>429<]</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="sprite sprite-xss-protection"></span>
+			<div class="text">[>430<]
+				<div class="tip">
+					<div class="innerTip">[>431<]</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="sprite sprite-openCode"></span>
+			<div class="text">[>432<]
+				<div class="tip">
+					<div class="innerTip">[>433<]</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="sprite sprite-data-protection"></span>
+			<div class="text">[>434<]
+				<div class="tip">
+					<div class="innerTip">[>435<]</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="sprite sprite-files-work"></span>
+			<div class="text">[>436<]
+				<div class="tip">
+					<div class="innerTip">[>437<]</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="sprite sprite-quick-navigation"></span>
+			<div class="text">[>438<]
+				<div class="tip">
+					<div class="innerTip">[>439<]</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="sprite sprite-attached"></span>
+			<div class="text">[>440<]
+				<div class="tip">
+					<div class="innerTip">[>441<]</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="sprite sprite-secure-feedback1"></span>
+			<div class="text">[>442<]
+				<div class="tip">
+					<div class="innerTip">[>443<]</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="signupFree jSignup">
+	<div class="inner">
+		<a href="signup" class="button btn-green">[>A278<]</a>
+		<p></p>
+	</div>
+</div>
+<div class="mainclear-footer"></div>
+
+<!--[index header]-->
+<div class="header-top">
+	<a class="header-logo" href="root"></a>
+	<div class="header-rightside">
+		<span class="header-sign-up-container"><a href="signup" class="header-sign-up" id="headerSignup">[>A194<]</a></span>
+		<span id="headerSignin">
+			<input class="header-top-input" type="text" placeholder="[>L190<]" id="login">
+			<input class="header-top-input" type="text" placeholder="[>L12<]" id="password">
+			<button type="submit" class="button header-sign-in" id="btnSubmit" disabled>[>A13<]</button>
+		</span>
+	</div>
+</div>
+
+<!--[guest message]-->
+<div class="quick-read signup">
+	<div class="title">[>F93<]!</div>
+	<div class="description" id="description">[>F281<]</div>
+	<div class="seal"></div>
+	<div class="passHint hide" id="hintBlock">
+		<div class="content">
+			<div class="text">[>F527<]</div>
+			<div class="question" id="hint"></div>
+		</div>
+	</div>
+	<div class="control-field" id="messagePasswordBlock">
+		<span class="control-field__error" id="messagePasswordHint"></span>
+		<input class="control-field__input" type="password" placeholder="[>F318<]" id="messagePassword">
+	</div>
+	<div class="itemInput loginInput" id="loginBlock">
+		<div class="topText" id="hint"></div>
+		<div class="inputArea">
+			<span class="emailInfo">&#64;[>DOMAIN<]</span>
+			<input type="text" placeholder="[>F319<] ([>320<])" id="inputValue">
+		</div>
+	</div>
+	<div class="hide" id="extendedInputs">
+		<div class="itemInput" id="nicknameBlock">
+			<div class="topText" id="nicknameHint"></div>
+			<div class="inputArea">
+				<input type="text" maxlength="30" placeholder="[>F235<]" id="nickname">
+			</div>
+		</div>
+		<div class="itemInput passCode" id="passwordBlock">
+			<span class="textCode noEmpty">
+				<span id="passwordIcon"></span>
+				<span class="control-field__check__text" id="passwordHint"></span>
+			</span>
+			<span class="visiblePass" id="passVisible"><span class="sprite sprite-eye"></span></span>
+			<div class="inputArea">
+				<input type="password" placeholder="[>F244<]" id="password">
+			</div>
+		</div>
+		<div class="itemInput" id="passwordConfirmBlock">
+			<div class="topText" id="passwordConfirmHint"></div>
+			<div class="inputArea">
+				<input type="password" placeholder="[>F245<]" id="passwordConfirm">
+			</div>
+		</div>
+		<label class="itemInput center" id="rulesAgreeBlock">
+			<div class="control-field-checkbox">
+				<input type="checkbox" id="rulesAgree">
+				<span class="control-field-checkbox__style icon-check"></span>
+			</div>
+			<span class="control-field-text">[>F276<]</span>
+		</label>
+	</div>
+	<div class="center">
+		<button type="submit" class="button" id="btnSubmit" disabled>[>F328<]</button>
+	</div>
+</div>
+<div class="mainclear-footer"></div>
+
+<!--[page]-->
+<div class="mainpage-content-inner">
+	<div class="text" id="pageHTML"></div>
+</div>
+
+<!--[page inner]-->
+<div class="message-menu fixed" id="topPanel">
+	<h1 class="message-menu__title"><a class="backBtn" id="btnBack">[>F117<]</a><span id="panelTopTitle">&nbsp;</span></h1>
+	<!--user menu-->
+	<div id="userMenu"></div>
+</div>
+<div class="height-30"></div>
+<div class="mainpage-content-inner mainpage">
+	<div class="text" id="pageHTML"></div>
+</div>
+
+<!--[inbox]-->
+<div class="message-menu fixed" id="topPanel">
+	<h1 class="message-menu__title" id="panelTopTitle">&nbsp;</h1>
+	<!--search-->
+	<div class="message-menu-search">
+		<input type="text" class="message-menu-search-input" id="searchInput" placeholder="[>A148<]">
+		<button class="icon-search icon" id="btnSearch"></button>
+	</div>
+	<!--bulk actions-->
+	<div id="digestsTopPanel">
+		<div class="message-menu-item message-menu-checkbox small-dropdown hide" id="selectorBlock">
+			<!--bulk select-->
+			<a class="form-checkbox small-dropdown-open">
+				<div class="control-field-checkbox">
+					<input type="checkbox" id="digestsSelector">
+					<span class="control-field-checkbox__style icon-check"></span>
+				</div>
+				<span class="ico icon-dropdown" id="selectArrow"></span>
+			</a>
+			<div id="selectorPopup"></div>
+		</div>
+		<span id="digestsTools">
+			<!--delete-->
+			<a class="message-menu-delete message-menu-item hide" id="btnDelete"><span class="icon icon-trash"></span>[>F167<]</a>
+			<!--move to-->
+			<div class="message-menu-item message-menu-move small-dropdown hide" id="btnMove">
+				<a class="small-dropdown-open">
+					<span class="icon icon-folder"></span>[>F179<] <span class="ico icon-dropdown"></span>
+				</a>
+				<div id="moveToPopup"></div>
+			</div>
+			<!--spam-->
+			<a class="message-menu-mas message-menu-item hide" id="btnSpam">
+				<span class="icon icon-poo"></span>[>A134<]
+			</a>
+		</span>
+	</div>
+	<!--user menu-->
+	<div id="userMenu"></div>
+</div>
+<div class="message-table-container" id="emailsTableContainer"></div>
+<div class="preloaderCenter" id="preLoaderBottom">
+	<span class="preloader4"></span>
+</div>
+
+<!--[empty folder]-->
+<div class="no-messages-outer" id="emptyFolder">
+	<div class="no-messages">
+		<div class="no-messages-inner">
+			<div class="no-messages-img">
+				<span class="sprite sprite-no-message"></span>
+			</div>
+			<h2>[>F116<]</h2>
+			<p>&nbsp;</p>
+		</div>
+	</div>
+</div>
+
+<!--[empty popup]-->
+<ul class="small-dropdown-body"></ul>
+
+<!--[selector popup]-->
+<ul class="small-dropdown-body">
+	<li class="small-dropdown-item" data-id="1">
+		<a class="small-dropdown-body-link">[>F200<]</a>
+	</li>
+	<li class="small-dropdown-item" data-id="2">
+		<a class="small-dropdown-body-link">[>F199<]</a>
+	</li>
+	<li class="small-dropdown-item" data-id="3">
+		<a class="small-dropdown-body-link">[>F224<]</a>
+	</li>
+	<li class="small-dropdown-item" data-id="4">
+		<a class="small-dropdown-body-link">[>F133<]</a>
+	</li>
+	<li class="small-dropdown-item" data-id="5">
+		<a class="small-dropdown-body-link">[>F226<]</a>
+	</li>
+</ul>
+
+<!--[popup item]-->
+<li class="small-dropdown-item">
+	<a class="small-dropdown-body-link" id="title"></a>
+</li>
+
+<!--[digests table]-->
+<table class="message-tbl">
+	<colgroup>
+		<col width="51px" />
+		<col width="34px" />
+		<col width="64px" />
+		<col width="31px" />
+		<col width="227px" />
+		<col />
+		<col width="80px" />
+		<col width="85px" />
+	</colgroup>
+	<thead>
+		<tr>
+			<th></th>
+			<th><a class="message-table-filter" id="sortByStarred"><span class="icon-star-filled"></span><span class="icon" id="sortByStarredIcon"></span></a></th>
+			<th></th>
+			<th><a class="message-table-filter" id="sortByAttach"><span class="icon-attach"></span><span class="icon" id="sortByAttachIcon"></span></a></th>
+			<th><a class="message-table-filter" id="sortByAddress"><span id="addressTitle">[>235<]</span> <span class="icon" id="sortByAddressIcon"></span></a></th>
+			<th><a class="message-table-filter" id="sortBySubject">[>82<] <span class="icon" id="sortBySubjectIcon"></span></a></th>
+			<th><a class="message-table-filter" id="sortByTTL">[>17<] <span class="icon" id="sortByTTLIcon"></span></a></th>
+			<th><a class="message-table-filter" id="sortBySentTime">[>234<] <span class="icon" id="sortBySentTimeIcon"></span></a></th>
+		</tr>
+	</thead>
+</table>
+<div class="message-table" id="emailsContainer"></div>
+
+<!--[digest]-->
+<div class="message-table-row">
+	<div class="message-table-checkbox">
+		<div class="control-field-checkbox">
+			<input type="checkbox" id="checkbox">
+			<span class="control-field-checkbox__style icon-check"></span>
+		</div>
+	</div>
+	<div class="message-table-favourite">
+		<div class="control-field-checkbox" id="starredBlock">
+			<input type="checkbox" class="control-field-checkbox-star__input" id="starred">
+			<span class="control-field-checkbox__style--starbcg icon-star2"></span>
+		</div>
+	</div>
+	<a class="message-table-item">
+		<span class="message-table-item-row">
+			<span class="message-table-item-avatar">
+				<span class="message-table-item-avatar-img" id="avatarMulti">
+					<img alt="" id="avatar">
+				</span>
+			</span>
+			<span class="message-table-item-attach h" id="attaches"><span class="icon-attach"></span></span>
+			<span class="message-table-item-triforce">
+				<span class="message-table-item-triforce-inner">
+					<span class="message-table-item-triforce-row">
+						<span class="message-table-item-triforce-nick"><span class="newMessageValue" id="countNew"></span> <span class="newMessageValue grey" id="countTotal"></span> <span id="from"></span></span>
+						<span class="message-table-item-triforce-subj"><span class="message-table-item-triforce-subj-inner" id="subject"></span></span>
+					</span>
+				</span>
+				<span class="message-table-item-triforce-msg" id="description"></span>
+			</span>
+			<span class="message-table-item-time" id="ttl"></span>
+			<span class="message-table-item-date" id="sent"></span>
+		</span>
+	</a>
+</div>
+
+<!--[digest folder]-->
+<span class="inbox-label">
+	<span class="icon icon-folder"></span>
+	<span id="title"></span>
+</span>
+
+<!--[view message]-->
+<div class="message-menu incoming-message">
+	<h1 class="message-menu__title">
+		<a class="backBtn" id="btnBack">[>F117<]</a>
+		<a id="messageIconLock"></a>
+		<span id="panelTopTitle">&nbsp;</span>
+	</h1>
+	<!--user menu-->
+	<div id="userMenu"></div>
+</div>
+<article class="messages">
+	<header>
+		<div class="top" id="viewHeader">
+			<h1 id="messageSubject"></h1>
+		</div>
+		<div class="star">
+			<div class="message-menu-fav hide" id="btnStarredTitle">
+				<div class="control-field-checkbox">
+					<input type="checkbox" class="j-message-fav" id="btnStarredTitleIco">
+					<span class="control-field-checkbox__style--starbcg icon-star-filled"></span>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="controls">
+		<div class="left">
+			<a class="spam" id="btnSpam">
+				<span class="icon icon-poo"></span>
+				<div class="text">[>F134<]</div>
+			</a>
+			<a class="prev hide">
+				<span class="icon icon-back"></span>
+				<div class="text">[>F567<]</div>
+			</a>
+			<a class="next hide">
+				<span class="icon icon-next"></span>
+				<div class="text">[>F568<]</div>
+			</a>
+		</div>
+		<div class="right">
+			<a class="message-menu-reply message-menu-item message-menu-item--message" id="btnReply">
+				<span class="icon icon-reply2"></span>
+				<span class="message-menu-item__under-text">[>F265<]</span>
+			</a>
+			<a class="message-menu-reply message-menu-item message-menu-item--message" id="btnReplyAll">
+				<span class="icon icon-reply-all"></span>
+				<span class="message-menu-item__under-text">[>F346<]</span>
+			</a>
+			<a class="message-menu-reply message-menu-item message-menu-item--message" id="btnForward">
+				<span class="icon icon-forward"></span>
+				<span class="message-menu-item__under-text">[>F347<]</span>
+			</a>
+			<a class="message-menu-print message-menu-item message-menu-item--message" id="btnPrint">
+				<span class="icon icon-print"></span>
+				<span class="message-menu-item__under-text">[>F228<]</span>
+			</a>
+			<div class="message-menu-item message-menu-move small-dropdown message-menu-item--message" id="btnMove">
+				<a class="j-dropdown-open small-dropdown-open">
+					<span class="icon icon-folder"></span>
+					<span class="message-menu-item__under-text">[>F150<]</span>
+				</a>
+			</div>
+			<a class="message-menu-delete message-menu-item message-menu-item--message" id="btnDelete">
+				<span class="icon icon-trash"></span>
+				<span class="message-menu-item__under-text">[>F167<]</span>
+			</a>
+		</div>
+	</div>
+	<div id="emailsContainer"></div>
+</article>
+
+<!--[view message item]-->
+<section class="hide">
+	<div class="head" id="header">
+		<div class="corner" id="corner">
+			<a class="inner"></a>
+		</div>
+		<div class="outerThumb" id="avatarMulti">
+			<img class="ava" id="senderAvatar">
+			<div class="thumbDefault" id="senderInitials"><span></span></div>
+		</div>
+		<div class="dates" id="details">
+			<div class="date" id="sentTime"></div>
+			<div class="period">
+				<span class="sprite sprite-clock-grey"></span>
+				<span class="count" id="ttl"></span>
+			</div>
+		</div>
+		<div class="info">
+			<h2 id="fromName"></h2>
+			<div class="to">
+				<div class="text" id="to"></div>
+				<span class="sprite sprite-arrow-small" id="toArrow"></span>
+			</div>
+		</div>
+		<div class="collapse"><span id="collapse">[>523<]</span></div>
+	</div>
+	<div class="infoExpanded" id="infoExpanded"></div>
+	<div class="outerIframe" id="messageBody"><div></div></div>
+	<div class="fileBtnOuter hide" id="btnFilesBlock">
+		<div class="filesButton opened" id="btnFiles">
+			<span class="icon icon-attach"></span>
+			<span class="icon icon-dropdown"></span>
+			<span class="text">
+				<div class="count"><span id="filesCount"></span> [>F263<]</div>
+				<div class="size">[<span id="filesSize"></span>]</div>
+			</span>
+		</div>
+	</div>
+	<div class="fileStorage hide" id="attaches"></div>
+</section>
+
+<!--[digest avatar layer]-->
+<div class="layerBorder"></div>
+
+<!--[view message folder]-->
+<div class="label" id="name"></div>
+
+<!--[view message expanded]-->
+<div class="from">
+	<span class="prefix">[>524<]:</span>
+	<div class="value" id="from"></div>
+</div>
+<div class="to">
+	<span class="prefix">[>81<]:</span>
+	<span class="items" id="to"></span>
+</div>
+<div class="to" id="ccBlock">
+	<span class="prefix">[>528<]:</span>
+	<span class="items" id="cc"></span>
+</div>
+<div class="sent">
+	<span class="prefix">[>130<]:</span>
+	<div class="value" id="sent"></div>
+</div>
+<div class="lifetime">
+	<span class="prefix">[>236<]:</span>
+	<div class="value" id="ttl"></div>
+</div>
+
+<!--[view message expanded from]-->
+<span id="iconLock"></span>
+<span class="email" id="to"></span>
+
+<!--[view message expanded to]-->
+<span class="item">
+	<span id="iconLock"></span>
+	<span class="email" id="to"></span>
+</span>
+
+<!--[folder]-->
+<li class="menu-folders-item">
+	<a class="menu-folders-folder" id="title"></a>
+	<span class="menu-folders-total" id="count"></span>
+	<span class="menu-folders-new hide" id="newBlock"><span class="menu-folders-new__text hide" id="countNew"></span></span>
+</li>
+
+<!--[custom folder]-->
+<li class="menu-folders-item" draggable="true">
+	<div id="folderBlock">
+		<span class="menu-folders-folder menu-custom-folders-folder">
+			<a class="menu-custom-folders-folder-link" id="title"></a>
+			<span class="icon icon-dropdown" id="arrow"></span>
+			<span class="menu-folders-total" id="count"></span>
+		</span>
+		<span class="menu-folders-new hide" id="newBlock"><span class="menu-folders-new__text hide" id="countNew"></span></span>
+	</div>
+	<div class="menu-custom-folders-add-hidden block hide" id="editBody"></div>
+	<div id="folderPopup"></div>
+</li>
+
+<!--[folder change]-->
+<input type="text" id="input" maxlength="15">
+<button class="btn btn-cancel" id="cancel">[>F164<]</button>
+<button class="btn" id="save">[>F165<]</button>
+
+<!--[folder popup]-->
+<div id="folderPopup">
+	<ul class="small-dropdown-body">
+		<li class="small-dropdown-item">	
+			<a class="small-dropdown-body-link" id="edit"><span class="icon icon-edit"></span>[>F166<]</a>
+		</li>
+		<li class="small-dropdown-item">
+			<a class="small-dropdown-body-link" id="delete"><span class="icon icon-trash"></span>[>F167<]</a>
+		</li>
+		<li class="small-dropdown-item">
+			<a class="small-dropdown-body-link" id="feedback"><span class="icon icon-code"></span>[>F401<]</a>
+		</li>
+	</ul>
+</div>
+
+<!--[user menu]-->
+<div class="message-menu-user-menu">
+	<div class="message-menu-user-menu-info">
+		<div class="message-menu-user-menu-info-info">
+			<a class="message-menu-user-menu-info-name" id="userName"></a>
+			<a class="message-menu-user-menu-info-mail blue" id="userEmail"></a>
+		</div>
+		<span id="userMenuPopupBlock">
+			<a class="message-menu-user-menu__link">
+				<span class="message-menu-user-menu-info-photo-container">
+					<img class="message-menu-user-menu-info-photo" id="userAvatar">
+				</span>
+				<span class="icon icon-dropdown"></span>
+			</a>
+		</span>
+		<a class="message-menu-user-menu__logout" id="userLogout"><span class="icon icon-exit"></span></a>
+	</div>
+	<div id="userAliasesPopupContainer"></div>
+	<div id="userMenuPopupContainer"></div>
+</div>
+
+<!--[user menu popup]-->
+<div class="small-dropdown-body message-menu-user-menu-dropdown">
+	<div class="message-menu-user-menu-info-block">
+		<a class="message-menu-user-menu-info-type" id="plans"><span class="icon icon-briefcase"></span><span id="userMembership"></span></a>
+		<div class="message-menu-user-menu-info-usage" id="userMenuDiskInfo">
+			<span class="message-menu-user-menu-info-usage-text"><span class="icon icon-ssd"></span><span id="userDiskUsage"></span></span>
+			<span class="message-menu-user-menu-info-usage-graph">
+				<span class="message-menu-user-menu-info-usage-graph message-menu-user-menu-info-usage-percents" id="userDiskUsageBar"></span>
+			</span>
+		</div>
+		<br />
+		<span class="message-menu-user-menu-info-type" id="userKey"></span>
+	</div>
+	<ul>
+		<li class="small-dropdown-item">
+			<a class="message-menu-user-menu-settings small-dropdown-body-link" id="settings"><span class="icon icon-settings"></span>[>F74<]</a>
+		</li>
+		<li class="small-dropdown-item">
+			<a class="message-menu-user-menu-logout small-dropdown-body-link" id="userMenuLogout"><span class="icon icon-exit"></span>[>F73<]</a>
+		</li>
+	</ul>
+</div>
+
+<!--[user aliases popup]-->
+<div class="small-dropdown-body message-menu-email-menu-dropdown">
+	<ul id="userAliasesList"></ul>
+	<div class="addAliasName">
+		<a id="userAddAlias">
+			<span class="icon icon-plus"></span>
+			<span>[>F153<]</span>
+		</a>
+		</li>
+	</div>
+</div>
+
+<!--[user aliases popup item]-->
+<li class="small-dropdown-item alliasItem">
+	<a>
+	<span class="message-menu-user-menu-info-photo-container ava">
+		<img class="message-menu-user-menu-info-photo hide" id="avatarImage">
+	</span>
+	<div class="text" id="title"><span id="subTitle"></span></div>
+	</a>
+</li>
+
+<!--[contacts]-->
+<div class="message-menu message-menu--contacts fixed" id="topPanel">
+	<div class="checkboxes-include-files-outer">
+		<h1>
+			<a class="backBtn" id="btnBack">[>F117<]</a>
+			<span id="panelTopTitle"></span>
+		</h1>
+		<div class="checkboxes-include-files" id="includeBlock">
+			<label class="control-field-label hide" id="includeSourcesBlock">
+				<div class="control-field-checkbox">
+					<input type="checkbox" id="includeSources">
+					<span class="control-field-checkbox__style icon-check"></span>
+				</div>
+				<span class="control-field-text"> [>F397<] [<span id="includeSourcesCount"></span>]</span>
+			</label>
+			<label class="control-field-label hide" id="includeBlacklistBlock">
+				<div class="control-field-checkbox">
+					<input type="checkbox" id="includeBlacklist">
+					<span class="control-field-checkbox__style icon-check"></span>
+				</div>
+				<span class="control-field-text"> [>F398<] [<span id="includeBlacklistCount"></span>]</span>
+			</label>
+		</div>
+	</div>
+	<!--search-->
+	<div class="message-menu-search">
+		<input type="text" class="message-menu-search-input" id="searchInput" placeholder="[>A148<]">
+		<span class="icon-search icon" id="btnSearch"></span>
+	</div>
+	<!--user menu-->
+	<div id="userMenu"></div>
+	<a class="message-menu-new-contact message-menu-item" id="newContact">
+		<span class="icon icon-plus"></span>[>F186<]
+	</a>
+	<a class="message-menu-new-contact message-menu-item hide" id="bulkWrite"><span class="icon icon-forward"></span> [>F225<]</a>
+</div>
+<div class="contacts" id="containerContacts"></div>
+
+<!--[contact]-->
+<div class="contact-item">
+	<div class="contact-item-avatar" id="avatarBlock">
+		<img class="hide" id="avatarImage">
+	</div>
+	<div class="contact-item-description">
+		<a id="contactLink">
+			<span class="contact-item-nick" id="nickname"></span><br />
+			<span class="contact-item-mail" id="email"></span><br />
+		</a>
+		<div class="message-menu-item contact-item-folder small-dropdown" id="foldersLink">
+			<a class="small-dropdown-open">
+				<span class="small-dropdown-open-span" id="currentFolder"></span>
+				<span class="ico icon-dropdown"></span>
+			</a>
+		</div>
+		<div class="lockedUnlocked">
+			<a class="icon icon-unlocked" id="btnVerified"></a>
+		</div>
+		<a class="contact-item-edit" id="btnEdit"><span class="icon icon-edit"></span></a>
+		<a class="contact-item-delete" id="btnDelete"><span class="icon icon-trash"></span></a>
+	</div>
+</div>
+
+<!--[filestorage]-->
+<div class="message-menu message-menu--fileStorage fixed" id="topPanel">
+	<div class="checkboxes-include-files-outer">
+		<h1 id="panelTopTitle">&nbsp;</h1>&nbsp;
+		<a class="uploadBtn hide" id="btnUpload">[>377<]</a>
+	</div>
+	<!--search-->
+	<div class="message-menu-search" id="searchBlock">
+		<input type="text" class="message-menu-search-input" id="searchInput" placeholder="[>A148<]">
+		<span class="icon-search icon" id="btnSearch"></span>
+	</div>
+	<div class="checkboxes-include-files" id="filesIncludeContainer">
+		<label class="control-field-label" id="filesUploadedBlock">
+			<div class="control-field-checkbox">
+				<input type="checkbox" id="filesUploaded">
+				<span class="control-field-checkbox__style icon-check"></span>
+			</div>
+			<span class="control-field-text">[>F406<] [<span id="filesUploadedCount"></span>]</span>
+		</label>
+		<label class="control-field-label" id="filesSentBlock">
+			<div class="control-field-checkbox">
+				<input type="checkbox" id="filesSent">
+				<span class="control-field-checkbox__style icon-check"></span>
+			</div>
+			<span class="control-field-text">[>F385<] [<span id="filesSentCount"></span>]</span>
+		</label>
+		<label class="control-field-label" id="filesReceivedBlock">
+			<div class="control-field-checkbox">
+				<input type="checkbox" id="filesReceived">
+				<span class="control-field-checkbox__style icon-check"></span>
+			</div>
+			<span class="control-field-text">[>F386<] [<span id="filesReceivedCount"></span>]</span>
+		</label>
+	</div>
+	<!--user menu-->
+	<div id="userMenu"></div>
+	<div id="toolsContainer"></div>
+</div>
+<div class="fileStorage" id="filesContainer"></div>
+
+<!--[files empty]-->
+<div class="upload-files-empty" id="noFilesUploadArea">
+	<div class="no-files">
+		<div class="upload-files-empty-inner">
+			<span class="icon-addCloud"></span>
+			<label class="file-select uploadNewFile">
+				<input class="file-select-input" id="btnUploadEmpty">
+				<span class="file-select-btn btn">[>F375<]</span>
+			</label>
+			<p class="justDesktop">[>376<]</p>
+		</div>
+		<i class="vertMiddle"></i>
+	</div>
+</div>
+
+<!--[files top]-->
+<div class="fileControls clearfix" id="filesActions">
+	<a class="message-menu-custom message-menu-item disabled" id="bulkDownload"><span class="icon icon-download"></span>[>F367<]</a-->
+	<a class="message-menu-delete message-menu-item disabled" id="bulkDelete"><span class="icon icon-trash"></span>[>F167<]</a>
+	<a class="message-menu-custom message-menu-item disabled" id="bulkSend"><span class="icon icon-forward"></span>[>F85<]</a>
+	<div class="message-menu-item message-menu-onpage small-dropdown" id="sortBlock">
+		<a class="small-dropdown-open">
+			<span class="icon-sort-desc"></span>
+			<span class="message-menu-onpage__text">[>F233<]:</span>
+			<span class="ico icon-dropdown"></span>
+		</a>
+		<div class="small-dropdown-body" id="sortPopup"></div>
+	</div>
+</div>
+
+<!--[file]-->
+<div class="file-item-outer">
+	<div class="file-item" id="fileBlock">
+		<div class="progressBar hide" id="progress"></div>
+		<a id="iconBlock"><span class="iconFile icon" id="icon"><span id="extension"></span></span></a>
+		<span id="loader"></span>
+		<img class="thumb hide" id="thumbImage"/>
+		<div class="file-item-description">
+			<span class="file-item-nick" id="name"></span>
+			<div class="clearfix">
+				<img class="message-table-item-avatar-img" id="avatarImage">
+				<span class="file-item-info noThumb" id="infoBlock">
+					<span class="file-item-date"><span id="size"></span> [<span id="info"></span>]</span>
+					<a class="icon icon-forward hide" id="btnSend"></a>
+					<a class="icon icon-link hide" id="btnLink"></a>
+					<a class="icon icon-eye hide" id="btnView"></a>
+					<a class="icon icon-download hide" id="btnDownload"></a>
+					<a class="icon icon-trash hide" id="btnDelete"></a>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[file loader]-->
+<div class="outerSpinner"><div class="preloader4 flip flip4"></div></div>
+
+<!--[settings]-->
+<div class="page-content-inner">
+	<h1 id="panelTopTitle"></h1>
+	<!--user menu-->
+	<div id="userMenu"></div>
+	<div class="setting">
+		<div class="control-field" id="nicknameBlock">
+			<label class="control-field__label control-field__label--settings">[>F235<]:</label>
+			<div class="control-field__container control-field__container--settings">
+				<input type="text" class="control-field__input control-field__input--w350" value="" maxlength="30" id="nickname">
+				<span class="control-field__check hide" id="nicknameIcon"><span class="icon-check"></span></span>
+				<span class="control-field__error" id="nicknameHint"></span>
+			</div>
+		</div>
+		<div class="control-field">
+			<label class="control-field__label control-field__label--settings">[>F239<]:</label>
+			<div class="control-field__container control-field__container--settings">
+				<div class="setting-avatar-container">
+					<div class="setting-avatar-img-outer">
+						<img class="setting-avatar-img h" id="avatarImage">
+					</div>
+					<div class="setting-avatar-text">
+						<div class="file-select setting-avatar-file-desk">
+							<input type="button" class="file-select-input" id="avatarChoose">
+							<span class="file-select-btn setting-avatar-btn">[>F240<]</span>
+						</div>
+						<span class="setting-avatar-info">[>F241<]</span>
+						<a class="setting-avatar-remove" id="avatarDelete">
+							<span class="icon icon-trash"></span>[>F242<]
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="control-field">
+			<label class="control-field__label control-field__label--settings">[>F457<]:</label>
+			<div class="control-field__container control-field__container--settings">
+				<select id="folderSelect"></select>
+			</div>
+		</div>
+		<div class="control-field">
+			<label class="control-field__label control-field__label--settings">&nbsp;</label>
+			<div class="control-field__container control-field__container--settings">
+				<label class="control-field-label">
+					<div class="control-field-checkbox">
+						<input type="checkbox" id="addRecipients">
+						<span class="control-field-checkbox__style icon-check"></span>
+					</div>
+					<span class="control-field-text">[>F156<]</span>
+				</label>
+				<label class="control-field-label">
+					<div class="control-field-checkbox">
+						<input type="checkbox" id="twoFactorAuth">
+						<span class="control-field-checkbox__style icon-check"></span>
+					</div>
+					<span class="control-field-text">[>F555<]</span>
+				</label>
+			</div>
+		</div>
+		<div class="control-field">
+			<label for="myNick" class="control-field__label control-field__label--settings">[>F564<]:</label>
+			<div class="control-field__container control-field__container--settings">
+				<div class="compose-body">
+					<textarea class="tiny" id="signature"></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="control-field">
+			<label class="control-field__label control-field__label--settings password">[>F244<]:</label>
+			<div class="control-field__container control-field__container--settings signup">
+				<div class="itemInput passCode" id="passwordBlock">
+					<span class="textCode noEmpty">
+						<span id="passwordIcon"></span>
+						<span class="control-field__check__text" id="passwordHint"></span>
+					</span>
+					<span class="visiblePass" id="passVisible"><span class="sprite sprite-eye"></span></span>
+					<div class="inputArea">
+						<input class="noEmpty" type="password" placeholder="" id="password">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="control-field hide" id="passwordConfirmBlock">
+			<label class="control-field__label control-field__label--settings">[>F245<]:</label>
+			<div class="control-field__container control-field__container--settings">
+				<input type="password" class="control-field__input control-field__input--w350" id="passwordConfirm" value="" placeholder="[>F344<]">
+				<span class="control-field__error" id="passwordConfirmHint"></span>
+				<span class="control-field__check" id="passwordConfirmIcon"><span class="icon-check"></span></span>
+			</div>
+		</div>
+		<div class="control-field hide" id="passwordCurrentBlock">
+			<label class="control-field__label control-field__label--settings">[>F246<]:</label>
+			<div class="control-field__container control-field__container--settings">
+				<input type="password" class="control-field__input control-field__input--w350" id="passwordCurrent" value="" placeholder="[>F344<]">
+			</div>
+		</div>
+	</div>
+	<div class="setting-button-segment">
+		<div class="setting-field">
+			<label class="control-field__label control-field__label--settings"></label>
+			<div class="control-field__container control-field__container--settings">
+				<button class="btn" id="btnSubmit" disabled>[>F243<]</button>
+				<button class="btn btn-delete hide" id="btnDelete">[>F454<]</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[compose]-->
+<div class="page-content-inner composePage">
+	<h1 id="panelTopTitle">&nbsp;</h1>
+	<!--user menu-->
+	<div id="userMenu"></div>
+	<!--new message-->
+	<div class="compose-head">
+		<div class="line-field" id="to">
+			<label>[>F81<]:</label>
+			<div class="compose-multi" id="recipients">
+				<span class="load-icon" id="loader"></span>
+				<span class="icon icon-dropdown cc-arrow" id="openCcBcc"></span>
+				<input class="recipient-mail-input" type="text" maxlength="50" placeholder="[>F275<]" id="recInput">
+				<div class="compose-multi-help block hide">
+					<ul id="hintContainer"></ul>
+				</div>
+			</div>
+			<span class="icon icon-plus" id="addContactsSafe"></span>
+		</div>
+		<div class="line-field hide" id="cc">
+			<label>[>F515<]:</label>
+			<div class="compose-multi" id="recipients">
+				<span class="load-icon" id="loader"></span>
+				<input class="recipient-mail-input" type="text" maxlength="50" placeholder="[>F275<]" id="recInput">
+				<div class="compose-multi-help">
+					<ul id="hintContainer"></ul>
+				</div>
+			</div>
+			<span class="icon icon-plus" id="addContactsSafeCc"></span>
+		</div>
+		<div class="line-field hide" id="bcc">
+			<label>[>F516<]:</label>
+			<div class="compose-multi" id="recipients">
+				<span class="load-icon" id="loader"></span>
+				<input class="recipient-mail-input" type="text" maxlength="50" placeholder="[>F275<]" id="recInput">
+				<div class="compose-multi-help">
+					<ul id="hintContainer"></ul>
+				</div>
+			</div>
+			<span class="icon icon-plus" id="addContactsSafeBcc"></span>
+		</div>
+		<div class="line-field">
+			<label>[>F82<]:</label>
+			<input type="text" class="line-field-input" id="subject" maxlength="200">
+		</div>
+	</div>
+	<div class="compose-body">
+		<div class="compose-body-redactor" id="tinyBlock">
+			<textarea class="tiny" id="messageText"></textarea>
+		</div>
+		<div class="outerIframe" id="messageSignature"><div></div></div>
+		<div class="outerIframe" id="messageBody"><div></div></div>
+		<div class="compose-body-settings">
+			<div class="clearfix">
+				<div class="control-field control-field--low control-field--notwide lifetime hide" id="ttlBlock">
+					<label class="control-field__label">[>F17<]:</label>
+					<div class="control-field__container">
+						<div class="select-field">
+							<select id="ttl"></select>
+						</div>
+					</div>
+				</div>
+				<div class="control-field control-field--low control-field--notwide selectFiles">
+					<div class="control-field__container">
+						<span class="file-select-btn" id="attachesAdd">[>F84<]</span>
+					</div>
+				</div>
+				<div class="control-field control-field--low control-field--notwide signUpFree" id="addFilesSafe">
+					<a class="button btn-green">[>F452<]</a>
+				</div>
+				<a class="encrypted roundedBorder" id="encrypted">
+					<span class="text" id="encryptedText">[>F539<]</span>
+					<span class="i i-unlocked" id="encryptedIco"></span>
+				</a>
+				<div class="control-field addSource hide" id="attachPreviousMessageBlock">
+					<label class="control-field-label roundedBorder">
+						<div class="control-field-checkbox">
+							<input type="checkbox" id="attachPreviousMessage" checked>
+							<span class="control-field-checkbox__style icon-check"></span>
+						</div>
+						<span class="control-field-text">[>F341<]</span>
+					</label>
+				</div>
+			</div>
+			<div id="messageAttaches" class="filesArea"></div>
+		</div>
+		<div class="compose-body-buttons-segment">
+			<button type="submit" class="btn" id="btnSend" disabled>[>F85<]</button>
+			<button type="submit" class="btn btn-cancel" id="btnDraft" disabled>[>F165<] [>185<]</button>
+			<a class="compose-body-buttons-segment-btn" id="discard"><span class="icon-trash icon"></span>[>F184<]</a>
+		</div>
+	</div>
+</div>
+
+<!--[compose recipient]-->
+<div class="recipient-mail-container">
+	<a class="recipient-mail" id="type">
+		<span class="recipient-mail-inner">
+			<span class="recipient-mail-name" id="nickname"></span>
+			<span class="recipient-mail-adress" id="address"></span>
+		</span>
+		<span class="icon icon-dropdown"></span>
+	</a>
+	<div class="recipient-mail-actions" id="actionsPopup"></div>
+</div>
+
+<!--[compose recipient menu]-->
+<ul class="small-dropdown-body">
+	<li class="small-dropdown-item" id="remove">
+		<a class="small-dropdown-body-link">[>F167<]</a>
+	</li>
+	<li class="small-dropdown-item" id="copy">
+		<a class="small-dropdown-body-link">[>F528<]</a>
+	</li>
+	<li class="small-dropdown-item" id="addToContacts">
+		<a class="small-dropdown-body-link">[>F181<]</a>
+	</li>
+</ul>
+
+<!--[prediction item]-->
+<li>
+	<a class="compose-multi-help-link">
+		<span class="compose-multi-help-nick" id="name"></span>
+		<span class="compose-multi-help-mail" id="address"></span>
+	</a>
+</li>
+
+<!--[captcha]-->
+<div>
+	<div class="captchaLoad">
+		<img id="captchaImg">
+		<span class="refreshCaptcha" id="captchaRefresh"></span>
+	</div>
+	<div class="itemInput" id="inputBlock">
+		<div class="topText" id="captchaErrorHint"></div>
+		<div class="inputArea">
+			<input type="text"  id="captchaInput" placeholder="[>F62<]" readonly>
+		</div>
+	</div>
+</div>
+
+<!--[signup]-->
+<div class="registration">
+	<div class="signup">
+		<h1>[>A194<]</h1>
+		<div class="itemInput" id="nicknameBlock">
+			<div class="topText" id="nicknameHint"></div>
+			<div class="inputArea">
+				<input type="text" maxlength="30" placeholder="[>F235<]" id="nickname">
+			</div>
+		</div>
+		<div class="itemInput safead" id="loginBlock">
+			<div class="topText" id="hint"></div>
+			<div class="inputArea">
+				<span class="emailInfo">&#64;[>DOMAIN<]</span>
+				<input type="text" maxlength="30" placeholder="[>F190<]" id="inputValue">
+			</div>
+		</div>
+		<div class="itemInput passCode" id="passwordBlock">
+			<span class="textCode noEmpty">
+				<span id="passwordIcon"></span>
+				<span class="control-field__check__text" id="passwordHint"></span>
+			</span>
+			<span class="visiblePass" id="passVisible"><span class="sprite sprite-eye"></span></span>
+			<div class="inputArea">
+				<input type="password" placeholder="[>F12<]" id="password">
+			</div>
+			<div class="description">[>F141<]</div>
+		</div>
+		<div class="itemInput" id="passwordConfirmBlock">
+			<div class="topText" id="passwordConfirmHint"></div>
+			<div class="inputArea">
+				<input type="password" placeholder="[>F21<]" id="passwordConfirm">
+			</div>
+		</div>
+		<div id="captchaBlock"></div>
+		<div class="itemInput center">
+			<label class="control-field-label" id="rulesAgreeBlock">
+				<div class="control-field-checkbox">
+					<input type="checkbox" id="rulesAgree">
+					<span class="control-field-checkbox__style icon-check"></span>
+				</div>
+				<span class="control-field-text">[>F276<]</span>
+			</label>
+		</div>
+		<div class="center">
+			<button type="submit" class="button btn-green" id="btnSubmit" disabled>[>A194<]</button>
+		</div>
+	</div>
+</div>
+
+<!--[signin]-->
+<div class="registration">
+	<div class="signup">
+		<h1>[>49<]</h1>
+		<div class="itemInput loginInput" id="loginBlock">
+			<div class="topText" id="loginError"></div>
+			<div class="inputArea">
+				<span class="emailInfo">&#64;[>DOMAIN<]</span>
+				<input type="text" placeholder="[>190<]" maxlength="30" id="loginInput">
+			</div>
+		</div>
+		<div class="itemInput" id="passwordBlock">
+			<div class="topText" id="passwordError"></div>
+			<div class="inputArea">
+				<input type="password" placeholder="[>12<]" id="passwordInput">
+			</div>
+		</div>
+		<div id="captchaBlock"></div>
+		<div class="center">
+			<button type="submit" class="btn authorization-btn" id="btnSubmit" disabled>[>F13<]</button>
+			<span class="authorization-alternative">[>157<]</span>
+				<a href="signup" class="authorization-registration">[>F194<]</a>
+		</div>
+	</div>
+</div>
+
+<!--[403]-->
+<div class="errorOverlay">
+	<div class="errorArea">
+		<span class="sprite sprite-forbidden"></span>
+		<h2>403 [>F238<]</h2>
+		<p><a href="root">[>F229<]</a></p>
+	</div>
+</div>
+
+<!--[404]-->
+<div class="errorOverlay">
+	<div class="errorArea">
+		<span class="sprite sprite-error404"></span>
+		<h2>404 [>F163<]</h2>
+		<p><a href="root">[>F229<]</a></p>
+	</div>
+</div>
+
+<!--[500]-->
+<div class="errorOverlay">
+	<div class="errorArea">
+		<span class="sprite sprite-error"></span>
+		<h2>500 [>F563<]</h2>
+		<p><a href="root">[>F229<]</a></p>
+	</div>
+</div>
+
+<!--[m interface]-->
+<div class="allMainContentOuter" id="interfaceOuter">
+	<header class="header" id="panelTop"></header>
+	<div class="main noFooter" id="contentBody"></div>
+</div>
+
+<!--[m interface inner]-->
+<div class="leftPanel left-290" id="menuLeft"></div>
+<div class="rightPanel right-400" id="menuRight"></div>
+<div class="allMainContentOuter left-0 right-0" id="mainBlock">
+	<div class="membersMenu" id="panelTopMenu"></div>	
+	<header class="header" id="panelTop"></header>
+	<footer class="footer" id="panelBottom"></footer>
+	<div class="main" id="contentBody"></div>
+</div>
+
+<!--[m index]-->
+<article class="index">
+	<div class="topIndex">
+		<div class="topIndexInner">
+			<div class="max-width">
+				<div class="indexIntro">[>F450<]</div>
+				<div class="indexButtons">
+					<span class="left"><a class="btn" href="features">[>277<]</span></a>
+					<span class="right"><a class="btn" href="faq">[>279<]</span></a>
+				</div>
+				<div class="indexSeal"></div>
+				<div class="typicalForm outerWrapper">
+					<label class="item" id="loginBlock">
+						<div class="top">
+							<span class="text"></span>
+						</div>
+						<div class="bottom">
+							<span class="emailInfo">&#64;[>DOMAIN<]</span>
+							<div class="outerInput">
+								<input type="text" placeholder="[>190<]" class="underline" maxlength="30" autocorrect="off" autocapitalize="off" id="login" />
+							</div>
+						</div>
+					</label>
+					<label class="item" id="passwordBlock">
+						<div class="top">
+							<span class="text" id="passwordError"></span>
+						</div>
+						<div class="bottom">
+							<span class="i iStatus"></span>
+							<div class="outerInput">
+								<input type="password" placeholder="[>12<]" class="underline" id="password" />
+							</div>
+						</div>
+					</label>
+					<div id="captchaBlock"></div>
+					<div class="center load" id="buttonsBlock">
+						<button class="signIn" disabled id="btnSubmit">
+							<span class="text">[>F13<]</span>
+							<span class="i i-signin"></span>
+						</button>
+						<span class="or">[>157<]</span>
+						<a class="signIn green" href="signup">
+							<span class="i i-signup"></span>
+							<span class="text">[>F194<]</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="indexBottomLinks">
+		<a class="item" href="terms">[>459<]</a>
+		<a class="item" href="privacy">[>460<]</a>
+		<!--a class="item" href="plans">[>270<]</a-->
+		<a class="item" href="contact">[>461<]</a>
+	</div>
+</article>
+
+<!--[m panel top index]-->
+<span class="logo" id="logo"><span class="i i-logo"></span></span>
+
+<!--[m dropdown index languages]-->
+<li data-id="en"><span class="item"><span class="i i-flag-en"></span> english</span></li>
+<li data-id="ge"><span class="item"><span class="i i-flag-ge"></span> deutsch</span></li>
+<li data-id="fr"><span class="item"><span class="i i-flag-fr"></span> français</span></li>
+<li data-id="rus"><span class="item"><span class="i i-flag-rus"></span> russian</span></li>
+
+<!--[m panel top]-->
+<span class="button outerIco" id="btnBack">
+	<span class="i i-back"></span>
+</span>
+<span class="logo" id="logo"><span class="i i-logo"></span></span>
+<span class="headerTitle" id="panelTopTitle">&nbsp;</span>
+
+<!--[m signup]-->
+<div class="vertOuter">
+	<div class="typicalForm outerWrapper">
+		<label class="item" id="nicknameBlock">
+			<div class="top">
+				<span class="text" id="nicknameHint"></span>
+			</div>
+			<div class="bottom">
+				<span class="i iStatus" id="nicknameIcon"></span>
+				<div class="outerInput">
+					<input type="text" placeholder="[>F235<]" class="underline" value="" maxlength="30" id="nickname" />
+				</div>
+			</div>
+		</label>
+		<label class="item" id="loginBlock">
+			<div class="top">
+				<span class="text" id="hint"></span>
+			</div>
+			<div class="bottom">
+				<span class="i iStatus" id="iconCheck"></span>
+				<span class="emailInfo">&#64;[>DOMAIN<]</span>
+				<div class="outerInput">
+					<input type="text" placeholder="[>F190<]" class="underline" maxlength="30" id="inputValue" autocorrect="off" autocapitalize="off" />
+				</div>
+			</div>
+		</label>
+		<label class="item" id="passwordBlock">
+			<div class="top">
+				<span class="passType" id="passwordHint"></span>
+			</div>
+			<div class="bottom">
+				<span class="i iStatus"></span>
+					<span class="pass">
+					<span class="i passIcon" id="passwordIcon"></span>
+				</span>
+				<span class="visiblePass" id="passVisible"><span class="i i-eye"></span></span>
+				<div class="outerInput">
+					<input type="password" placeholder="[>F12<]" class="underline" id="password" />
+				</div>
+			</div>
+		</label>
+		<label class="item" id="passwordConfirmBlock">
+			<div class="top">
+				<span class="text" id="passwordConfirmHint"></span>
+			</div>
+			<div class="bottom">
+				<span class="i iStatus" id="passwordConfirmIcon"></span>
+				<div class="outerInput">
+					<input type="password" placeholder="[>F21<]" class="underline" value="" id="passwordConfirm" />
+				</div>
+			</div>
+		</label>
+		<div id="captchaBlock"></div>
+		<label class="checkbox privacyPolicy" id="rulesAgreeBlock">
+			<input type="checkbox" id="rulesAgree">
+			<span class="borderFrame"></span>
+			<span class="value">[>F276<]</span>
+		</label>
+		<div class="center oneButton">
+			<button class="signIn" id="btnSubmit" disabled>
+				<span class="text">[>F194<]</span>
+				<span class="i i-signin"></span>
+			</button>
+		</div>
+	</div>
+</div>
+	
+<!--[m captcha]-->
+<div class="captchaLoad load">
+	<label class="item captcha">
+		<span class="i i-refresh" id="captchaRefresh"></span>
+		<div class="captchaContainer">
+			<img id="captchaImg"/>
+		</div>
+	</label>
+	<label class="item" id="inputBlock">
+		<div class="top">
+			<span class="text" id="captchaErrorHint"></span>
+		</div>
+		<div class="bottom">
+			<span class="i iStatus"></span>
+			<div class="outerInput">
+				<input type="text" placeholder="[>F62<]" class="underline" autocorrect="off" autocapitalize="off" readonly id="captchaInput" />
+			</div>
+		</div>
+	</label>
+</div>
+
+<!--[m menu left]-->
+<div class="top"><span class="i i-logo"></span></div>
+<div class="foldersInner" id="folders">
+	<div class="vertAlign">
+		<div id="foldersProtected"></div>
+		<div id="foldersCustom"></div>
+	</div>
+</div>
+<div class="addFolder" id="newFolderBlock">
+	<div class="outerInput">
+		<input type="text" class="underline" maxlength="15" placeholder="[>F168<]" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" id="newFolderInput" />
+	</div>
+	<div class="buttons">
+		<span class="add outerIcoText" id="folderNewButton">
+			<span class="outerIco"><span class="i i-add-green-big"></span></span>
+			<span class="value">[>F170<]</span>
+		</span>
+		<span class="addBtn outerIcoText" id="folderAddButton">
+			<span class="outerIco"><span class="i i-add-green-big"></span></span>
+			<span class="value">[>F175<]</span>
+		</span>
+		<span class="cancel outerIcoText" id="folderNewCancel">
+			<span class="outerIco"><span class="i i-false"></span></span>
+			<span class="value">[>F164<]</span>
+		</span>
+	</div>
+</div>
+
+<!--[m folder]-->
+<div class="folderItem">
+	<span class="outerIcoText">
+		<span class="outerIco"><span class="i" id="icon"></span></span>
+		<span class="folderName">
+			<span class="title" id="title"></span>
+			<span class="total" id="count"></span>
+		</span>
+	</span>
+	<span class="new hide" id="countNew"></span>
+</div>
+
+<!--[m custom folder]-->
+<div class="folderItem">
+	<span class="outerIco" id="arrow">
+		<span class="i i-arrow-panel"></span>
+	</span>
+	<span class="new hide" id="countNew"></span>
+	<span class="folderName">
+		<span class="customName" id="title"></span>
+		<span class="total" id="count"></span>
+	</span>
+	<div id="changeBlock"></div>
+</div>
+
+<!--[m folder change]-->
+<div class="folderNameChange">
+	<input type="text" class="underline" maxlength="15" placeholder="[>F168<]" id="input" />
+	<span class="rename outerIcoText" id="save">
+		<span class="outerIco"><span class="i i-true"></span></span>
+		<span class="value">[>F166<]</span>
+	</span>
+	<span class="delete outerIcoText" id="delete">
+		<span class="outerIco"><span class="i i-false"></span></span>
+		<span span class="value">[>F182<]</span>
+	</span>
+</div>
+
+<!--[m menu right]-->
+<div class="max-width">
+	<span class="item membership" id="membership">
+		<span class="i i-membership"></span>
+		<span class="value" id="userMembership"></span>
+	</span>
+	<span class="item useSize" id="userMenuDiskInfo">
+		<span class="i i-diskSize"></span>
+		<span class="value">
+			<div class="size" id="userDiskUsage"></div>
+			<div class="progress"><div class="percentage" id="userDiskUsageBar"></div></div>
+		</span>
+	</span>
+	<span class="item currentKey" id="userKey"></span>
+</div>
+<div class="menuRightInner">
+	<div class="vertAlign">
+		<div class="max-width">
+			<span class="item outerIcoText" id="linkContacts">
+				<span class="outerIco"><span class="i i-contacts-small"></span></span>
+				<span class="value">[>F124<] <span class="number" id="contactsTotal"></span></span>
+			</span>
+			<span class="item outerIcoText" id="linkFiles">
+				<span class="outerIco"><span class="i i-files-small"></span></span>
+				<span class="value" id="files">[>F263<] <span class="number"><span id="filesCount"></span> <span id="filesSizeBlock">[<span id="filesSize"></span>]</span></span></span>
+			</span>
+			<span class="item information" id="informationLink">
+				<span class="name outerIcoText">
+					<span class="outerIco"><span class="i i-info"></span></span>
+					<span class="value">[>F77<] <span class="i i-arrow-down-grey"></span></span>
+				</span>
+				<span id="infoList"></span>
+			</span>
+			<span class="item outerIcoText" id="contactSupport">
+				<span class="outerIco"><span class="i i-support"></span></span>
+				<span class="value">[>F125<]</span>
+			</span>
+			<span class="item outerIcoText" id="linkAliases">
+				<span class="outerIco"><span class="i i-alias"></span></span>
+				<span class="value">[>F99<]</span>
+			</span>
+			<span class="item outerIcoText" id="linkSettings">
+				<span class="outerIco"><span class="i i-settings"></span></span>
+				<span class="value">[>F74<]</span>
+			</span>
+		</div>
+	</div>
+</div>
+<div class="right">
+	<span class="logout outerIcoText" id="userLogout">
+		<span>[>F73<]</span>
+		<span class="outerIco"><span class="i i-logout"></span></span>
+	</span>
+</div>
+
+<!--[m dropdown info]-->
+<ul class="operations">
+	<!--li><a href="plans">[>F282<]</a></li-->
+	<li><a href="faq">[>F53<]</a></li>
+	<li><a href="features">[>F94<]</a></li>
+	<li><a href="privacy">[>F158<]</a></li>
+	<li><a href="terms">[>F15<]</a></li>
+</ul>
+
+<!--[m panel top inner]-->
+<span class="button outerIco hide" id="btnMenuLeft">
+	<span class="newMessageValue hide" id="newMessagesLabel"></span>
+	<span class="i i-hamburger"></span>
+</span>
+<span class="button outerIco hide" id="btnBack">
+	<span class="i i-back"></span>
+</span>
+<span class="accountImg" id="userBlock">
+	<span class="i i-default-ava"><img class="hide" id="userAvatar"/></span>
+</span>
+<div class="mainInfo">
+	<span id="topInfoBlock" id="topInfoBlock">
+		<div class="name" id="panelTopTitle">&nbsp;</div>
+		<div class="email"><span class="prefix" id="topPrefix"></span><span id="userEmail"></span></div>
+	</span>
+	<span class="outerIco locks hide" id="messageTopInfo">
+		<span class="i i-locked" id="messageIconLock"></span>
+	</span>
+</div>
+	
+<!--[m inbox]-->
+<article class="inbox-messages" id="emailsContainer"></article>
+<div class="preloaderCenter" id="preLoaderBottom">
+	<span class="preloader"></span>
+</div>
+
+<!--[m panel bottom inbox]-->
+<div class="inboxBottomPanel">
+	<label class="checkbox bottomCheckbox hide" id="selectorBlock">
+		<input type="checkbox" id="digestsSelector" />
+		<span class="borderFrame"></span>
+	</label>
+	<ul class="inboxFooterMenu" id="inboxSelectorMenu"></ul>
+	<div class="searchBlock hide" id="searchBlock">
+		<span class="searchBtn outerIco" id="btnSearchInner"><span class="i i-search"></span></span>
+		<span class="closeBtn outerIco" id="btnCloseSearch"><span class="i i-close"></span></span>
+		<div class="searchText"><input type="text" placeholder="[>F148<]" id="searchInput" /></div>
+	</div>
+	<span class="outerIco firstIco" id="btnContacts"><span class="i i-contacts"></span></span>
+	<span class="outerIco" id="btnStorage"><span class="i i-files"></span></span>
+	<span class="outerIco" id="btnSearch"><span class="i i-search"></span></span>
+	<span class="outerIco hide" id="btnSpam"><span class="i i-spam-green"></span></span>
+	<span class="outerIco hide" id="btnStarred"><span class="i i-star-grey" id="btnStarredIco"></span></span>
+	<span class="outerIco hide" id="btnMove"><span class="i i-folder2"></span></span>
+	<span class="outerIco hide" id="btnDelete"><span class="i i-busket"></span></span>
+	<span class="outerEdit" id="newCompose">
+		<span class="i i-edit"></span>
+	</span>
+</div>
+
+<!--[m panel bottom menu select]-->
+<li data-select="5"><span>[>226<]</span></li>
+<li data-select="4"><span>[>133<]</span></li>
+<li data-select="3"><span>[>224<]</span></li>
+<li data-select="2"><span>[>199<]</span></li>
+<li data-select="1"><span>[>200<]</span></li>
+
+<!--[m empty folder]-->
+<article class="inboxEmpty" id="emptyFolder">
+	<div class="content">
+		<span class="i i-cup"></span>
+		<h2>[>F116<]</h2>
+		<p>&nbsp;</p>
+	</div>
+</article>
+
+<!--[m digest]-->
+<div class="attach-file">
+	<div class="control-actions" id="swipeMenu"></div>
+	<div class="attach-file-content" id="swipePanel">
+		<div class="attach-file-info">
+			<div class="top">
+				<div class="outerThumb" id="avatarMulti">
+					<img id="avatar" />
+					<div class="thumbDefault hide" id="senderInitialsBlock"><span id="senderInitials"></span></div>
+				</div>
+				<span class="outerIco star" id="starred">
+					<span class="i i-star-grey" id="starredIco"></span>
+				</span>
+				<div class="text">
+					<div class="from"><span class="newMessageValue" id="countNew"></span> <span class="newMessageValue grey" id="countTotal"></span> <span id="from"></span></div>
+					<div class="title" id="subject"></div>
+				</div>
+			</div>
+			<div class="description" id="description"></div>
+			<div class="info">
+				<div class="remain">[<span id="sent"></span>]</div>
+				<div class="left"><span class="i i-clock"></span> <span id="ttl"></span> <span class="hide" id="attaches"><span class="i i-attach-grey-small"></span> <span id="attachesInfo"></span></span></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[m digest swipe my own]-->
+<div class="control-actions-inner">
+	<span class="delete item" id="delete">
+		<span class="i i-delete"></span>
+	</span>
+</div>
+
+<!--[m digest swipe]-->
+<div class="control-actions-inner">
+	<span class="spam item" id="spam">
+		<span class="i i-spam-white"></span>
+	</span>
+	<span class="sent item" id="reply">
+		<span class="i i-reply-white"></span>
+	</span>
+	<span class="delete item" id="delete">
+		<span class="i i-delete"></span>
+	</span>
+</div>
+
+<!--[m digest swipe move]-->
+<div class="control-actions-inner">
+	<span class="spam item" id="spam">
+		<span class="i i-spam-white"></span>
+	</span>
+	<span class="download item" id="move">
+		<span class="i i-folder-white"></span>
+	</span>
+	<span class="sent item" id="reply">
+		<span class="i i-reply-white"></span>
+	</span>
+	<span class="delete item" id="delete">
+		<span class="i i-delete"></span>
+	</span>
+</div>
+
+<!--[m dialog modal]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent onlyButtons">
+			<div class="title d-text"></div>
+			<div class="description d-text"></div>
+			<div class="wait d-text"></div>
+		</div>
+	</div>
+</div>
+
+<!--[m dialog info]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent">
+			<div class="title d-text"></div>
+			<div class="description d-text"></div>
+			<button class="click d-btn" id="btnClose"></button>
+		</div>
+	</div>
+</div>
+
+<!--[m dialog confirm]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent">
+			<div class="title d-text"></div>
+			<div class="description d-text"></div>
+			<button class="click d-btn" id="btnSubmit"></button>
+			<button class="click d-btn" id="btnClose"></button>
+		</div>
+	</div>
+</div>
+
+<!--[m dialog 3 buttons]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent">
+			<div class="title d-text"></div>
+			<div class="description d-text"></div>
+			<button class="click d-btn" id="btnSubmit"></button>
+			<button class="click d-btn" id="btnAlternative"></button>
+			<button class="click d-btn" id="btnClose"></button>
+		</div>
+	</div>
+</div>
+
+<!--[m dialog buttons only]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent onlyButtons" id="buttonsContainer"></div>
+	</div>
+</div>
+
+<!--[m dialog button]-->
+<button class="click d-btn" id="title"></button>
+
+<!--[m dialog upgrade]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent">
+			<div class="title d-text"></div>
+			<div class="description d-text"></div>
+			<button class="click envelope-stamp d-btn" id="btnSubmit"></button>
+			<button class="click d-btn" id="btnClose"></button>
+		</div>
+	</div>
+</div>
+
+<!--[m dialog input]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent">
+			<div class="title d-text"></div>
+			<div class="description d-text"></div>
+			<div class="typicalForm leftPadd">
+				<label class="item withTitle" id="popupInputBlock">
+					<div class="top">
+						<span class="name d-text"></span>
+						<span class="text d-text" id="hint"></span>
+					</div>
+					<div class="bottom">
+						<span class="i iStatus hide" id="iconCheck"></span>
+						<div class="outerInput">
+							<input type="text" class="underline small" autocorrect="off" autocapitalize="off" id="inputValue" />
+						</div>
+					</div>
+				</label>
+				<button class="marginTop click d-btn" disabled id="btnSubmit"></button>
+				<button class="click d-btn" id="btnClose"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[m dialog contact]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent">
+			<div class="title d-text"></div>
+			<div class="typicalForm leftPadd">
+				<label class="item withTitle">
+					<div class="top">
+						<span class="name d-text"></span>
+						<span class="text"></span>
+					</div>
+					<div class="bottom">
+						<span class="i iStatus hide"></span>
+						<div class="outerInput">
+							<input type="text" class="underline small" maxlength="50" placeholder="[>F344<]" autocorrect="off" autocapitalize="off" id="name" />
+						</div>
+					</div>
+				</label>
+				<label class="item emails">
+					<div class="top">
+						<span class="name d-text"></span>
+					</div>
+				</label>
+				<label class="item" id="emailErrorBlock">
+					<div class="top">
+						<span class="name"></span>
+						<span class="text" id="errorHint"></span>
+					</div>
+					<div class="bottom">
+						<span class="i iStatus hide"></span>
+						<span class="delete hide">
+							<span class="i i-false"></span>
+						</span>
+						<div class="outerInput">
+							<input type="email" class="underline small" maxlength="50" placeholder="[>F344<]" id="email" />
+						</div>
+					</div>
+				</label>
+				<!--div class="item controlEmails">
+					<span class="outerIcoText addEmail">
+						<span class="outerIco"><span class="i i-add-green-big"></span></span>
+						<span class="text">Add email</span>
+					</span>
+				</div-->
+				<div class="item withTitle">
+					<div class="top">
+						<span class="name">[>F188<]:</span>
+						<span class="text"></span>
+					</div>
+					<div class="bottom">
+						<div class="outerInput">
+							<span class="incomingFolder" id="defaultFolderLink">
+								<span class="name">
+									<span class="text" id="currentFolder"></span>
+									<span class="i i-arrow-down-grey"></span>
+								</span>
+								<ul class="operations" id="foldersList"></ul>
+							</span>
+						</div>
+					</div>
+				</div>
+				<button class="marginTop click d-btn" id="btnSubmit"></button>
+				<button class="click d-btn" id="btnClose"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[m dialog textarea]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent">
+			<div class="title d-text"></div>
+			<div class="description d-text"></div>
+			<div class="outerTextarea">
+				<textarea id="popupTextarea"></textarea>
+			</div>
+			<button class="click d-btn" id="btnSubmit"></button>
+			<button class="click d-btn" id="btnClose"></button>
+		</div>
+	</div>
+</div>
+
+<!--[m dialog avatar]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent">
+			<div class="title noPadding">[>F107<]</div>
+			<div class="" id="cropperImage">
+				<div class="i i-rotate-up" id="rotateUp"></div>
+				<div class="i i-rotate-down" id="rotateDown"></div>
+			</div>
+			<button class="click d-btn" id="btnSubmit"></button>
+			<button class="click d-btn" id="btnClose"></button>
+		</div>
+	</div>
+</div>
+
+<!--[m dialog set password]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent">
+			<div class="title">[>F121<]</div>
+			<div class="description">[>F526<]</div>
+			<div class="typicalForm leftPadd">
+				<label class="item withTitle" id="passwordBlock">
+					<div class="top">
+						<span class="name">[>F121<]</span>
+						<span class="text" id="passwordHint"></span>
+					</div>
+					<div class="bottom">
+						<span class="i iStatus"></span>
+						<span class="pass">
+							<span class="i passIcon" id="passwordIcon"></span>
+						</span>
+						<span class="visiblePass" id="passVisible"><span class="i i-eye"></span></span>
+						<div class="outerInput">
+							<input type="password" class="underline small" placeholder="[>344<]" id="password" />
+						</div>
+					</div>
+				</label>
+				<div class="item withTitle" id="passwordConfirmBlock">
+					<div class="top">
+						<span class="name">[>F21<]</span>
+						<span class="text" id="passwordConfirmHint"></span>
+					</div>
+					<div class="bottom">
+						<span class="i iStatus" id="passwordConfirmIcon"></span>
+						<span class="genPassword" id="passwordGenerate"><span class="i i-gen-password"></span></span>
+						<div class="outerInput">
+							<input type="password" class="underline small" placeholder="[>344<]" id="passwordConfirm" />
+						</div>
+					</div>
+				</div>
+				<label class="item withTitle">
+					<div class="top">
+						<span class="name">[>F527<]</span>
+						<span class="text"></span>
+					</div>
+					<div class="bottom">
+						<div class="outerInput">
+							<input type="text" class="underline small" autocorrect="off" autocapitalize="off" placeholder="[>320<]" maxlength="100" id="hint" />
+						</div>
+					</div>
+				</label>
+				<button class="marginTop click d-btn" disabled id="btnSubmit"></button>
+				<button class="click d-btn" id="btnClose"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--[m dialog 2x auth]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent">
+			<div class="title">[>F555<]</div>
+			<div class="description">[>F558<]:</div>
+			<div class="codeArea loading" id="popupLoading">
+				<div class="imgOuter">
+					<img id="twoFactorImage" />
+				</div>
+				<div class="codeValue" id="twoFactorCode"></div>
+				<div class="text">[>F559<]:</div>
+				<div class="typicalForm leftPadd">
+					<label class="item error">
+						<div class="top">
+							<span class="text" id="errorHint"></span>
+						</div>
+						<div class="bottom">
+							<div class="outerInput">
+								<input type="type" placeholder="Required" class="underline small" id="twoFactorCheckCode">
+							</div>
+						</div>
+					</label>
+				</div>
+			</div>
+			<button class="click" disabled id="btnSubmit">[>F560<]</button>
+			<button class="click" id="btnClose">[>F164<]</button>
+		</div>
+	</div>
+</div>
+
+<!--[m dialog 2x auth confirm]-->
+<div class="overlay open" id="dialog">
+	<div class="innerOverlay">
+		<div class="popupContent">
+			<div class="title">[>F112<]</div>
+			<div class="description">[>F561<]</div>
+			<div class="codeArea">
+				<div class="codeValue" id="twoFactorCode"></div>
+				<div class="error">[>F562<]</div>
+			</div>
+			<button class="click" id="btnClose">[>F102<]</button>
+		</div>
+	</div>
+</div>
+
+<!--[m panel bottom compose only]-->
+<span class="itemIco edit" id="newCompose">
+	<span class="i i-edit"></span>
+</span>
+
+<!--[m panel top menu]-->
+<ul>
+	<li class="aliasName" id="addAlias">
+		<span class="outerIcoText">
+			<span class="outerIco"><span class="i i-add-green-big"></span></span>
+			<span>[>F153<]</span>
+		</span>
+	</li>
+</ul>
+
+<!--[m panel top menu item]-->
+<li>
+	<span class="i i-default-ava ava"><img class="hide" id="avatarImage"></span>
+	<div class="text">
+		<div class="name" id="title"></div>
+		<div class="email" id="address"></div>
+	</div>
+</li>
+
+<!--[m alphabet]-->
+<div class="contacts-letterList" id="alphabet">
+	<div class="inner fontSize20 lineHeight35 hide" id="alphabetSize">
+		<span class="letter" id="letterA">A</span>
+		<span class="letter" id="letterB">B</span>
+		<span class="letter" id="letterC">C</span>
+		<span class="letter" id="letterD">D</span>
+		<span class="letter" id="letterE">E</span>
+		<span class="letter" id="letterF">F</span>
+		<span class="letter" id="letterG">G</span>
+		<span class="letter" id="letterH">H</span>
+		<span class="letter" id="letterI">I</span>
+		<span class="letter" id="letterJ">J</span>
+		<span class="letter" id="letterK">K</span>
+		<span class="letter" id="letterL">L</span>
+		<span class="letter" id="letterM">M</span>
+		<span class="letter" id="letterN">N</span>
+		<span class="letter" id="letterO">O</span>
+		<span class="letter" id="letterP">P</span>
+		<span class="letter" id="letterQ">Q</span>
+		<span class="letter" id="letterR">R</span>
+		<span class="letter" id="letterS">S</span>
+		<span class="letter" id="letterT">T</span>
+		<span class="letter" id="letterU">U</span>
+		<span class="letter" id="letterV">V</span>
+		<span class="letter" id="letterW">W</span>
+		<span class="letter" id="letterX">X</span>
+		<span class="letter" id="letterY">Y</span>
+		<span class="letter" id="letterZ">Z</span>
+		<span class="letter" id="letterHash">#</span>
+	</div>
+</div>
+
+<!--[m contacts]-->
+<article id="contacts" class="contactsList" id="contacts">
+	<div id="contactsHelpPanelContainer"></div>
+	<div id="containerContacts"></div>
+</article>
+
+<!--[m contacts help panel]-->
+<div class="filter-menu" id="messagePanel">
+	<span class="searchBtn outerIco"><span  class="i i-sort"></span></span>
+	<div class="searchText"><input type="text" placeholder="[>F191<]" autocorrect="off" autocapitalize="off" id="searchInput"/></div>
+</div>
+
+<!--[m panel bottom contacts]-->
+<div class="sideMargins">
+	<span class="itemIco newContact control40" id="newContact">
+		<span class="outerIcoText">
+			<span class="outerIco"><span class="i i i-add-green-big"></span></span>
+			<span class="value">[>F186<]</span>
+		</span>
+	</span>
+	<span class="itemIco edit" id="newCompose">
+		<span class="i i-edit"></span>
+	</span>
+	<span class="itemIco write hide control40" id="bulkWrite">
+		<span class="outerIcoText">
+			<span class="outerIco"><span class="i i-forward-grey"></span></span>
+			<span class="value">[>F225<]</span>
+		</span>
+	</span>
+</div>
+
+<!--[m contact]-->
+<div class="attach-file">
+	<div class="control-actions" id="swipeMenu"></div>
+	<div class="attach-file-content" id="swipePanel">
+		<div class="attach-file-info">
+			<span class="thumb-default" id="initials"></span>
+			<img class="thumb hide" id="avatarImage">
+			<span class="contact-link" id="contactLink">
+				<div class="contact-name" id="nickname"></div>
+				<div class="contact-email" id="email"></div>
+				<span class="contact-email-action" id="foldersLink">
+					<span class="name">
+						<span class="text" id="currentFolder"></span>
+						<span class="i i-arrow-down-grey"></span>
+					</span>
+					<ul class="operations" id="foldersList"></ul>
+				</span>
+			</span>
+		</div>
+	</div>
+</div>
+
+<!--[m contact swipe not verified]-->
+<div class="control-actions-inner">
+	<span class="lock item" id="verify">
+		<span class="i i-locked-white"></span>
+	</span>
+	<span class="edit item" id="edit">
+		<span class="i i-pencil"></span>
+	</span>
+	<span class="delete item" id="delete">
+		<span class="i i-delete"></span>
+	</span>
+</div>
+
+<!--[m contact swipe verified]-->
+<div class="control-actions-inner">
+	<span class="unlock item" id="verify">
+		<span class="i i-unlocked-white"></span>
+	</span>
+	<span class="edit item" id="edit">
+		<span class="i i-pencil"></span>
+	</span>
+	<span class="delete item" id="delete">
+		<span class="i i-delete"></span>
+	</span>
+</div>
+
+<!--[m contact swipe external]-->
+<div class="control-actions-inner">
+	<span class="edit item" id="edit">
+		<span class="i i-pencil"></span>
+	</span>
+	<span class="delete item" id="delete">
+		<span class="i i-delete"></span>
+	</span>
+</div>
+	
+<!--[m compose]-->
+<article class="compose" id="composeArticle">
+	<div class="topContent" id="composeTop">
+		<div class="recipients-outer" id="multiCompose">
+			<div id="to">
+				<div class="users noUsers" id="recipientsBlock">
+					<span id="recipients"></span>
+					<span class="preloader" id="loader"></span>
+				</div>
+				<div class="newRecipient" id="toTools">
+					<span class="outerIco" id="addContactsSafe">
+						<span class="i i-add-green-big"></span>
+					</span>
+					<span class="outerIco" id="openCcBcc">
+						<span class="i i-arrow-down-blue"></span>
+					</span>
+					<div class="input">
+						<input type="email" placeholder="[>F275<]" autocorrect="off" autocapitalize="off" id="recInput" />
+					</div>
+				</div>
+				<ul class="dropDownList" id="hintContainer"></ul>
+			</div>
+			<div class="bcc hide" id="cc">
+				<div class="users noUsers" id="recipientsBlock">
+					<span id="recipients"></span>
+					<span class="preloader" id="loader"></span>
+				</div>
+				<span class="prefix">[>F515<]:</span>
+				<span class="outerIco" id="addContactsSafeCc">
+					<span class="i i-add-green-big"></span>
+				</span>
+				<div class="input">
+					<input type="email" placeholder="[>F275<]" autocorrect="off" autocapitalize="off" id="recInput" />
+				</div>
+				<ul class="dropDownList" id="hintContainer"></ul>
+			</div>
+			<div class="bcc hide" id="bcc">
+				<div class="users noUsers" id="recipientsBlock">
+					<span id="recipients"></span>
+					<span class="preloader" id="loader"></span>
+				</div>
+				<span class="prefix">[>F516<]:</span>
+				<span class="outerIco" id="addContactsSafeBcc">
+					<span class="i i-add-green-big"></span>
+				</span>
+				<div class="input">
+					<input type="email" placeholder="[>F275<]" autocorrect="off" autocapitalize="off" id="recInput" />
+				</div>
+				<ul class="dropDownList" id="hintContainer"></ul>
+			</div>
+			<div class="compose-subject" id="subjectBlock">
+				<textarea placeholder="[>F82<]" autocorrect="off" id="subject"></textarea>
+			</div>
+			<div class="compose-message">
+				<textarea class="height2" placeholder="[>F178<]" id="messageText"></textarea>
+				<div class="technicalDiv" id="technicalDiv"></div>
+			</div>
+		</div>
+		<div class="outerIframe noScroll" id="messageSignature"><div></div></div>
+		<div class="outerIframe noScroll" id="messageBody"><div></div></div>
+		<div class="files" id="messageAttaches"></div>
+	</div>
+</article>
+
+<!--[m tools bottom compose]-->
+<div class="bottomIcons" id="composeTools">
+	<label class="checkbox item hide" id="attachPreviousMessageBlock">
+		<input type="checkbox" id="attachPreviousMessage" />
+		<span class="borderFrame"></span>
+		<span class="value">[>F341<]</span>
+	</label>
+	<span class="file-upload item" id="attachesAdd">
+		<span class="i i-attach"></span>
+	</span>
+	<span class="encrypted item hide" id="encrypted">
+		<span class="i i-unlocked" id="encryptedIco"></span>
+	</span>
+	<span class="item hide" id="ttlBlock">
+		<span class="i i-bomb"></span>
+	</span>
+</div>
+<ul class="bombPanel hide" id="botMenu"></ul>
+
+<!--[m panel bottom compose]-->
+<div class="sideMargins">
+	<span class="itemIco control2 discard" id="discard">
+		<span class="outerIcoText">
+			<span class="outerIco"><span class="i i-busket"></span></span>
+			<span class="value">[>F184<]</span>
+		</span>
+	</span>
+	<span class="itemIco control2 draft disabled" id="btnDraft">
+		<span class="outerIcoText">
+			<span class="outerIco"><span class="i i-draft"></span></span>
+			<span class="value" id="draftTitle">[>F135<]</span>
+		</span>
+	</span>
+	<span class="itemIco control2 send disabled" id="btnSend">
+		<span class="outerIcoText">
+			<span class="outerIco"><span class="i i-send"></span></span>
+			<span class="value">[>F85<]</span>
+		</span>
+	</span>
+</div>
+
+<!--[m compose recipient]-->
+<span  class="item" id="recipient6">
+	<span class="name">
+		<span class="i i-arrow-down"></span>
+		<span class="text" id="name"></span>
+	</span>
+	<ul class="operations" id="actions"></ul>
+</span>
+
+<!--[m recipient dropdown]-->
+<li id="remove"><span>[>242<]</span></li>
+<li id="copy"><span>[>528<]</span></li>
+<li id="addToContacts"><span>[>181<]</span></li>
+
+<!--[m prediction item]-->
+<li><span class="name" id="name"></span><span class="address" id="address"></span></li>
+
+<!--[m dropdown item]-->
+<li><span class="item" id="title"></span></li>
+
+<!--[m dropdown value]-->
+<li><span class="value" id="title"></span></li>
+
+<!--[m loader]-->
+<div class="loader-overlay" id="loader">
+	<div class="loader" id="noProgress">
+		<span class="logo-s"></span>
+		<span class="progressBar">
+			<span class="progress progress-width0" id="bootProgress"></span>
+		</span>
+		<span class="text" id="loaderMessage"></span>
+	</div>
+</div>
+	
+<!--[m filestorage]-->
+<article class="filestorage">
+	<div class="filter-menu" id="helpPanelContainer">
+		<span class="sortalphabet" id="sortingLink">
+			<span class="name">
+				<span class="i i-sortAlphabet"></span>
+				<span class="i i-arrow-down-grey"></span>
+			</span>
+			<ul class="operations" id="sortingItems"></ul>
+		</span>
+		<span class="searchBtn outerIco" id="btnSearch"><span  class="i i-search"></span></span>
+		<div class="searchText" id="searchBlock"><input type="text" placeholder="[>F80<]" id="searchInput" /></div>
+	</div>
+	<div class="checkboxesInLine" id="filesIncludeContainer"></div>
+	<div class="files" id="filesContainer"></div>
+	<div class="uploadArea" id="noFilesUploadArea">
+		<div class="inner">
+			<span class="i i-upload-file-big"></span>
+			<div class="uploadBtn" id="filesUpload">[>F375<]</div>
+		</div>
+	</div>
+</article>
+
+<!--[m panel bottom filestorage]-->
+<div class="sideMargins">
+	<label class="itemIco control35 hide download" id="doubleAction">
+		<span class="outerIcoText">
+			<span class="outerIco"><span class="i i-upload" id="doubleActionIco"></span></span>
+			<span class="value" id="doubleActionTitle">[>F377<]</span>
+		</span>
+	</label>
+	<span class="itemIco control30 hide discard" id="bulkDelete">
+		<span class="outerIcoText">
+			<span class="outerIco"><span class="i i-busket"></span></span>
+			<span class="value">[>F167<]</span>
+		</span>
+	</span>
+	<span class="itemIco control35 sendTo disabled hide" id="bulkSend">
+		<span class="outerIcoText">
+			<span class="outerIco"><span class="i i-forward-grey"></span></span>
+			<span class="value">[>F403<]</span>
+		</span>
+	</span>
+	<span class="itemIco edit hide" id="newCompose">
+		<span class="i i-edit"></span>
+	</span>
+</div>
+
+<!--[m files include bar]-->
+<label class="checkbox hide" id="filesUploadedBlock">
+	<input type="checkbox" id="filesUploaded" />
+	<span class="borderFrame"></span>
+	<span class="value">[>F78<]</span>
+</label>
+<label class="checkbox hide" id="filesSentBlock">
+	<input type="checkbox" id="filesSent" />
+	<span class="borderFrame"></span>
+	<span class="value">[>F130<]</span>
+</label>
+<label class="checkbox hide" id="filesReceivedBlock">
+	<input type="checkbox" id="filesReceived" />
+	<span class="borderFrame"></span>
+	<span class="value">[>F79<]</span>
+</label>
+
+<!--[m file]-->
+<div class="attach-file">
+	<div class="control-actions" id="swipeMenu"></div>
+	<div class="attach-file-content" id="swipePanel">
+		<div class="progressBar progress-width0" id="progress"></div>
+		<img class="thumbImg hide" id="thumbImage" />
+		<div class="preloader" id="icon"><span id="extension"></span></div>
+		<span class="i i-default-ava-big" id="avatarBlock"><img id="avatarImage" /></span>
+		<div class="attach-file-info">
+			<div class="attach-file-title" id="name"></div>
+			<div class="attach-file-size"><span id="size"></span> [<span id="info"></span>]</div>
+		</div>
+	</div>
+</div>
+
+<!--[m file swipe not ready]-->
+<div class="control-actions-inner">
+	<span class="delete item" id="delete">
+		<span class="i i-delete"></span>
+		<span class="text">[>F167<]</span>
+	</span>
+</div>
+
+<!--[m file readonly]-->
+<div class="control-actions-inner">
+	<span class="sent item" id="send">
+		<span class="i i-sent"></span>
+		<span class="text">[>F85<]</span>
+	</span>
+	<span class="download item" id="download">
+		<span class="i i-download"></span>
+		<span class="text">[>F367<]</span>
+	</span>
+</div>
+
+<!--[m file swipe]-->
+<div class="control-actions-inner">
+	<span class="sent item" id="send">
+		<span class="i i-sent"></span>
+		<span class="text">[>F85<]</span>
+	</span>
+	<span class="download item" id="download">
+		<span class="i i-download"></span>
+		<span class="text">[>F367<]</span>
+	</span>
+	<span class="delete item" id="delete">
+		<span class="i i-delete"></span>
+		<span class="text">[>F167<]</span>
+	</span>
+</div>
+<!--span class="link item" id="link">
+	<span class="i i-link"></span>
+	<span class="text">[>F368<]</span>
+</span-->
+
+<!--[m page]-->
+<div class="textInfo" id="pageHTML"></div>
+
+<!--[m page inner]-->
+<div class="textInfo" id="pageHTML"></div>
+
+<!--[m view message]-->
+<article class="messages">
+	<header>
+		<div class="top" id="viewHeader">
+			<h1 id="messageSubject"></h1>
+		</div>
+		<div class="star" id="btnStarredTitle">
+			<span class="outerIco">
+				<span class="i i-star-grey hide" id="btnStarredTitleIco"></span>
+			</span>
+		</div>
+	</header>
+	<div id="emailsContainer"></div>
+</article>
+
+<!--[m view message item]-->
+<section class="hide">
+	<div class="head" id="header">
+		<div class="corner" id="corner"></div>
+		<div class="outerThumb" id="avatarMulti">
+			<img id="senderAvatar">
+			<div class="thumbDefault" id="senderInitials"><span></span></div>
+		</div>
+		<div class="dates" id="details">
+			<div class="date" id="sentTime"></div>
+			<div class="period">
+				<span class="i i-clock"></span>
+				<span class="count" id="ttl"></span>
+			</div>
+		</div>
+		<div class="info">
+			<h2 id="fromName"></h2>
+			<div class="to">
+				<div class="text" id="to"></div>
+				<span class="i i-arrow-small" id="toArrow"></span>
+			</div>
+		</div>
+		<div class="collapse"><span id="collapse">[>523<]</span></div>
+	</div>
+	<div class="infoExpanded" id="infoExpanded"></div>
+	<div class="outerIframe noScroll" id="messageBody"><div></div></div>
+	<div class="fileBtnOuter hide" id="btnFilesBlock">
+		<div class="filesBtn" id="btnFiles">
+			<span class="i i-attach"></span>
+			<span class="contentInfo">
+				<div class="count"><span id="filesCount"></span> [>F263<]</div>
+				<div class="size">[<span id="filesSize"></span>]</div>
+			</span>
+			<span class="i i-arrow-up"></span>
+		</div>
+	</div>
+	<div class="files hide" id="attaches"></div>
+</section>
+
+<!--[m view message hidden]-->
+<div class="messageCounter" id="hiddenMessages">
+	<div class="leftRounds"></div>
+	<span id="hiddenCount"></span>
+	<div class="rightRounds"></div>
+</div>
+
+<!--[m view message expanded]-->
+<div class="from">
+	<span class="prefix">[>524<]:</span>
+	<div class="value" id="from"></div>
+</div>
+<div class="to">
+	<span class="prefix">[>81<]:</span>
+	<span class="items" id="to"></span>
+</div>
+<div class="to" id="ccBlock">
+	<span class="prefix">[>528<]:</span>
+	<span class="items" id="cc"></span>
+</div>
+<div class="sent">
+	<span class="prefix">[>130<]:</span>
+	<div class="value" id="sent"></div>
+</div>
+<div class="lifetime">
+	<span class="prefix">[>236<]:</span>
+	<div class="value" id="ttl"></div>
+</div>
+
+<!--[m view message expanded from]-->
+<span class="i i-unlocked-small" id="iconLock"></span>
+<span class="email" id="to"></span>
+
+<!--[m view message expanded to]-->
+<span class="item">
+	<span class="i i-unlocked-small" id="iconLock"></span>
+	<span class="email" id="to"></span>
+</span>
+
+<!--[m view message folder]-->
+<div class="button" id="name"></div>
+
+<!--[m panel bottom message]-->
+<span class="itemIco edit" id="newCompose">
+	<span class="i i-edit"></span>
+</span>
+<div class="bottomButtons">
+	<span class="itemIco control" id="btnSpam">
+		<span class="outerIco">
+			<span class="i i-spam-green"></span>
+		</span>
+	</span>
+	<span class="itemIco control" id="btnMove">
+		<span class="outerIco">
+			<span class="i i-folder2"></span>
+		</span>
+	</span>
+	<span class="itemIco control" id="btnDelete">
+		<span class="outerIco">
+			<span class="i i-busket"></span>
+		</span>
+	</span>
+	<span class="itemIco control" id="btnReply">
+		<span class="outerIco">
+			<span class="i i-reply"></span>
+		</span>
+	</span>
+</div>
+
+<!--[m settings]-->
+<div class="options typicalForm leftPadd">
+	<h2>[>F518<]</h2>
+	<div class="info">
+		<div class="rightSide">
+			<div class="avaInfo">
+				<span class="name">[>F195<]:</span>
+				<span class="delete" id="avatarDelete"><span class="i i-busket"></span></span>
+			</div>
+			<span class="i i-default-ava-settings" id="avatarChoose"><img class="hide" id="avatarImage"/></span>
+		</div>
+		<div class="leftSide">
+			<div class="item withTitle allok" id="nicknameBlock">
+				<div class="top">
+					<span class="name">[>F235<]:</span>
+					<span class="error"></span>
+				</div>
+				<div class="bottom">
+					<span class="i iStatus hide" id="nicknameIcon"></span>
+					<div class="outerInput">
+						<input type="text" value="" class="underline small" placeholder="2 [>302<]" id="nickname" />
+					</div>
+				</div>
+			</div>
+			<div class="item withTitle">
+				<div class="top">
+					<span class="name">[>F455<]:</span>
+				</div>
+				<div class="bottom">
+					<div class="outerInput">
+						<span class="workingFolder" id="folderLink">
+							<span class="name">
+								<span class="text" id="defaultFolder"></span>
+								<span class="i i-arrow-down-grey"></span>
+							</span>
+							<ul class="operations" id="foldersList"></ul>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!--div class="item">
+				<div class="top">
+					<span class="name">[>F196<]:</span>
+				</div>
+				<div class="bottom">
+					<div class="outerInput">
+						<span class="interfaceLanguages" id="selectLanguage">
+							<span class="name">
+								<span class="i i-flag-en" id="languageIcon"></span>
+								<span class="text" id="languageTitle">[>F444<]</span>
+							</span>
+							<ul class="operations" id="languagesDropdown"></ul>
+						</span>
+					</div>
+				</div>
+			</div-->
+		</div>
+	</div>
+	<h2>[>F458<]</h2>
+	<div class="item">
+		<label class="checkbox" for="addRecipients">
+			<input type="checkbox" id="addRecipients" />
+			<span class="borderFrame"></span>
+			<span class="value">[>F156<]</span>
+		</label>
+	</div>
+	<h2>[>F456<]</h2>
+	<label class="checkbox" for="twoFactorAuth">
+		<input type="checkbox" id="twoFactorAuth" />
+		<span class="borderFrame"></span>
+		<span class="value">[>F555<]</span>
+	</label>
+	<div class="item withTitle" id="passCodeBlock">
+		<div class="top">
+			<span class="name">[>F482<]:<span id="passCodeChangeBlock"> [<a class="blue noBold" id="passCode"></a>]</span></div>
+		<div class="bottom">
+			<div class="outerInput">
+				<span class="workingFolder passCodeTime" id="passCodeMode">
+					<span class="name">
+						<span class="text" id="defaultPassCodeMode"></span>
+						<span class="i i-arrow-down-grey"></span>
+					</span>
+					<ul class="operations" id="passCodeModeList"></ul>
+				</span>
+			</div>
+		</div>
+		<label class="checkbox hide" for="touchId" id="touchIdBlock">
+			<input type="checkbox" id="touchId" />
+			<span class="borderFrame"></span>
+			<span class="value" id="touchIdTitle"></span>
+		</label>
+	</div>
+	<div class="item withTitle" id="passwordBlock">
+		<div class="top">
+			<span class="name">[>F244<]:</span>
+			<span class="passType" id="passwordHint"></span>
+		</div>
+		<div class="bottom">
+			<span class="i iStatus"></span>
+			<span class="visiblePass" id="passVisible"><span class="i i-eye"></span></span>
+			<span class="pass">
+				<span class="i passIcon" id="passwordIcon"></span>
+			</span>
+			<div class="outerInput">
+				<input type="password" class="underline" placeholder="[>F197<]" id="password" />
+			</div>
+		</div>
+	</div>
+	<label class="item withTitle hide" id="passwordConfirmBlock">
+		<div class="top">
+			<span class="name">[>F245<]:</span>
+			<span class="text" id="passwordConfirmHint"></span>
+		</div>
+		<div class="bottom">
+			<span class="i iStatus" id="passwordConfirmIcon"></span>
+			<div class="outerInput">
+				<input type="password" class="underline" placeholder="[>F344<]" id="passwordConfirm" />
+			</div>
+		</div>
+	</label>
+	<label class="item withTitle hide" id="passwordCurrentBlock">
+		<div class="top">
+			<span class="name">[>F246<]:</span>
+			<span class="passType"></span>
+		</div>
+		<div class="bottom">
+			<span class="i iStatus"></span>
+			<div class="outerInput">
+				<input type="password" class="underline" placeholder="[>F344<]"  id="passwordCurrent" />
+			</div>
+		</div>
+	</label>
+</div>
+
+<!--[m panel bottom settings]-->
+<span class="itemIco edit" id="newCompose">
+	<span class="i i-edit"></span>
+</span>
+<div class="sideMargins">
+	<span class="itemIco save disabled" id="btnSave">
+		<span class="outerIcoText">
+			<span class="outerIco"><span class="i i-save"></span></span>
+			<span class="value">[>F165<]</span>
+		</span>
+	</span>
+</div>
+
+<!--[m dropdown settings languages]-->
+<li data-id="en"><span class="item"><span class="icon icon-flag-en" value="icon-flag-en"></span><span class="lang">&nbsp;[>F444<]</span></span></li>
+
+<!--[m 404]-->
+<div class="loader-overlay">
+	<div class="errorArea">
+		<span class="i i-error404"></span>
+		<h2>404 [>F163<]</h2>
+		<p><a href="root">[>F229<]</a></p>
+	</div>
+</div>
+
+<!--[m 500]-->
+<div class="loader-overlay">
+	<div class="errorArea">
+		<span class="i i-error404"></span>
+		<h2>500 [>F231<]</h2>
+		<p><a href="root">[>F229<]</a></p>
+	</div>
+</div>
+
+<!--[m 403]-->
+<div class="loader-overlay">
+	<div class="errorArea">
+		<span class="i i-error404"></span>
+		<h2>403 [>F238<]</h2>
+		<p><a href="root">[>F229<]</a></p>
+	</div>
+</div>
+
+<!--[m offline]-->
+<div class="loader-overlay" id="offlineBlock">
+	<div class="errorArea">
+		<span class="i i-offline"></span>
+		<h2>[>A5<]</h2>
+		<p>[>248<]</p>
+		<p><a id="retryConnection">[>F249<]</a><p></p>
+	</div>
+</div>
+
+<!--[m guest message]-->
+<div class="vertOuter">
+	<div class="quick-read">
+		<div class="title">[>F93<]!</div>
+		<div class="description" id="description">[>281<]</div>
+		<div class="indexSeal"></div>
+		<div class="passHint hide" id="hintBlock">
+			<div class="content">
+				<div class="text">[>F527<]</div>
+				<div class="question" id="hint"></div>
+			</div>
+		</div>
+		<form class="typicalForm outerWrapper">
+			<label class="item" id="messagePasswordBlock">
+				<div class="top">
+					<span class="text" id="messagePasswordHint"></span>
+				</div>
+				<div class="bottom">
+					<div class="outerInput">
+						<input type="password" class="underline" id="messagePassword" placeholder="[>F318<] ([>344<])" />
+					</div>
+				</div>
+			</label>
+			<label class="item" id="loginBlock">
+				<div class="top">
+					<span class="text" id="hint"></span>
+				</div>
+				<div class="bottom">
+					<span class="i iStatus"></span>
+					<span class="emailInfo">&#64;[>DOMAIN<]</span>
+					<div class="outerInput">
+						<input type="text" class="underline" maxlength="30" placeholder="[>F319<] ([>320<])" id="inputValue" autocorrect="off" autocapitalize="off" />
+					</div>
+				</div>
+			</label>
+			<div class="hide" id="extendedInputs">
+				<label class="item" id="nicknameBlock">
+					<div class="top">
+						<span class="text" id="nicknameHint"></span>
+					</div>
+					<div class="bottom">
+						<span class="i iStatus"></span>
+						<div class="outerInput">
+							<input type="text" class="underline" maxlength="30" placeholder="[>F235<]" id="nickname"/>
+						</div>
+					</div>
+				</label>
+				<label class="item" id="passwordBlock">
+					<div class="top">
+						<span class="passType" id="passwordHint"></span>
+					</div>
+					<div class="bottom">
+						<span class="i iStatus"></span>
+						<span class="pass">
+							<span class="i passIcon" id="passwordIcon"></span>
+						</span>
+						<span class="visiblePass" id="passVisible"><span class="i i-eye"></span></span>
+						<div class="outerInput">
+							<input type="password" class="underline" placeholder="[>F244<]" id="password" />
+						</div>
+					</div>
+				</label>
+				<label class="item" id="passwordConfirmBlock">
+					<div class="top">
+						<span class="text" id="passwordConfirmHint"></span>
+					</div>
+					<div class="bottom">
+						<span class="i iStatus"></span>
+						<div class="outerInput">
+							<input type="password" class="underline" placeholder="[>F21<]" id="passwordConfirm" />
+						</div>
+					</div>
+				</label>
+				<label class="checkbox privacyPolicy" id="rulesAgreeBlock">
+					<input type="checkbox" id="rulesAgree">
+						<span class="borderFrame"></span>
+					<span class="value">[>F276<]</span>
+				</label>
+			</div>
+			<div class="center">
+				<button class="readMessage" disabled id="btnSubmit">
+					<span class="text">[>F328<]</span>
+					<span class="i i-signin"></span>
+				</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<!--[m passcode]-->
+<div class="vertOuter" id="passcode">
+	<div class="pin">
+		<div class="title" id="title"></div>
+		<div class="subOuter">
+			<div class="subText hide" id="subTitle"></div>
+			<span class="setPass hide" id="set">[>F501<]</span>
+		</div>
+		<ul class="points" id="points">&nbsp;</ul>
+		<ul class="numbers open" id="numbers">
+			<li data-id="1">
+				<span><div class="count">1</div><div>&nbsp;</div></span>
+			</li>
+			<li data-id="2">
+				<span><div class="count">2</div><div>ABC</div></span>
+			</li>
+			<li data-id="3">
+				<span><div class="count">3</div><div>DEF</div></span>
+			</li>
+			<li data-id="4">
+				<span><div class="count">4</div><div>GHI</div></span>
+			</li>
+			<li data-id="5">
+				<span><div class="count">5</div><div>JKL</div></span>
+			</li>
+			<li data-id="6">
+				<span><div class="count">6</div><div>MNO</div></span>
+			</li>
+			<li data-id="7">
+				<span><div class="count">7</div><div>PQRS</div></span>
+			</li>
+			<li data-id="8">
+				<span><div class="count">8</div><div>TUV</div></span>
+			</li>
+			<li data-id="9">
+				<span><div class="count">9</div><div>WXYZ</div></span>
+			</li>
+			<li id="cancel">
+				<span><span class="i i-cancel"></span><div>[>A164<]</div></span>
+			</li>
+			<li data-id="0">
+				<span><div class="count">0</div><div>&nbsp;</div></span>
+			</li>
+			<li class="delete" id="delete">
+				<span><span class="i i-backspace"></span><div>[>A167<]</div></span>
+			</li>
+			<li class="finger" id="touchIdButton">
+				<span><span class="i i-finger"></span><div>[>A517<]</div></span>
+			</li>
+		</ul>
+	</div>
+</div>

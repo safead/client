@@ -1,0 +1,104 @@
+<div class="prices" id="pricesBlock">
+	<h1 id="transferable">Prices & plans</h1>
+	<div class="intro"></div>
+	<div class="blocks">
+		<div class="item free">
+			<div class="priceBlock">
+				<div class="outerName">
+					<div class="name">Trial</div>
+				</div>
+				<div class="cost">
+					<span class="currency">$</span>
+					<span class="value">0</span>
+				</div>
+				<div class="description">first 6 months</div>
+				<div class="otherInfo">your current plan</div>
+				<div class="subscribeInfo"></div>
+				<a class="button hide" id="signup">Sign Up</a>
+			</div>
+			<div class="text">
+				<div class="title">Trial includes:</div>
+				<ul>
+					<li><span>[>1_SPACE<] of disk space</span></li>
+					<li><span>Safe filestorage</span></li>
+					<li><span>Maximum encryption strength (RSA 4096, AES 256)</span></li>
+					<li><span>Protection of user data (contacts, settings)</span></li>
+					<li><span>Contact verification (for internal adresses)</span></li>
+					<li><span>Maximum aliases: [>1_ALIASES<]</span></li>
+					<li><span>Maximum channel members (recipients of your mail): [>1_RECIPIENTS<]</span></li>
+					<li><span>Maximum attached files with every sent message: [>1_MAX_FILES<]</span></li>
+					<li><span>Each attached file can be maximum [>1_FILE_SIZE<]</span></li>
+					<li><span>Each sent message can be maximum [>1_MESSAGE_SIZE<] (in summary with attaches)</span></li>
+					<li><span>Maximum message lifetime: [>1_TTL<] year</span></li>
+					<li><span>Unlimited incoming and outgoing messages</span></li>
+					<li><span>Group messages by subject (chat-like mailing)</span></li>
+					<li><span>Sorting incoming messages by folders (by sender email or recipient alias)</span></li>
+					<li><span>Messages self-destruction by timer</span></li>
+					<li><span>Secure feedback for websites</span></li>
+					<li><span>Free apps for iOS & Android</span></li>
+					<li><span>2x factor authentication (Google Authenticator)</span></li>
+				</ul>
+			</div>
+		</div>
+		<a name="premium"></a>
+		<div class="item standart">
+			<div class="priceBlock">
+				<div class="outerName">
+					<div class="name">Member</div>
+					<div class="period" id="paidUntilPrem"></div>
+				</div>
+				<div class="cost">
+					<span class="currency">$</span>
+					<span class="value" id="premAmount"></span>
+					<span class="cent" id="premDecimal"></span>
+				</div>
+				<div class="description">complete service</div>
+				<div class="otherInfo"><!--$<span id="premMonthly"></span> -->billed yearly</div>
+				<div class="subscribeInfo">
+					<div class="time hide" id="blockSubscribePrem"><span id="titleSubscribePrem">subscribe for 1 year</span></div>
+				</div>
+				<a class="button" id="premButton">Sign Up</a>
+			</div>
+			<div class="text">
+				<div class="title">Member gets:</div>
+				<p class="otherFeatures">Everything in <b>Trial</b>, plus:</p>
+				<ul>
+					<li><span>Maximum aliases: [>3_ALIASES<]</span></li>
+					<li><span>Maximum channel members (recipients of your mail): [>4_RECIPIENTS<]</span></li>
+					<li><span>Maximum attached files with every sent message: [>4_MAX_FILES<]</span></li>
+					<li><span>Each attached file can be maximum: UNLIMITED (depending on which browser you are using)</span></li>
+					<li><span>Each sent message can be maximum 100Gb (in summary with attaches)</span></li>
+					<li><span>Maximum message lifetime: [>4_TTL<] years</span></li>
+					<li><span>Your own domain name integration (soon)</span></li>
+					<li><span>Safe storage files sharing (soon)</span></li>
+					<li><span>Outlook plugin (in future)</span></li>
+					<li><span>Managing your corporate domain email: create mailboxes for employees, creating mailing groups etc. (soon)</span></li>
+					<li><span>Priority support</span></li>
+				</ul>
+			</div>
+		</div>
+		<a name="corporate"></a>
+		<div class="item plus">
+			<div class="priceBlock">
+				<div class="outerName">
+					<div class="name">+1Gb:</div>
+					<div class="period" id="paidUntilCorp"></div>
+				</div>
+				<div class="cost">
+					<span class="currency">$</span>
+					<span class="value" id="corpAmount"></span>
+					<span class="cent" id="corpDecimal"></span>
+				</div>
+				<div class="description">for large data</div>
+				<div class="otherInfo"><!--$<span id="corpMonthly"></span> -->billed yearly</div>
+				<div class="subscribeInfo">
+					<div class="time hide" id="blockSubscribeCorp"><span id="titleSubscribeCorp">subscribe for 1 year</span></div>
+				</div>
+				<a class="button" id="corpButton">Sign Up</a>
+			</div>
+			<div class="text">
+				<p class="otherFeatures">Additional space options will be added soon...</p>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Safe.ad Secure Feedback</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link href="/css/feedback_inner.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<div class="feedback" id="feedback">
+		<a href="https://safe.ad/feedback" class="feedback-about" target="_blank">
+			<span>P2P encrypted feedback</span>
+			<span class="i-info"></span>
+		</a>
+		<h2 id="title">Contact us</h2>
+		<div class="form-container" id="container">
+			<div class="preloader" id="preloader"></div>
+			<div class="hide" id="formBody">
+				<input type="email" id="mail" placeholder="Your email for answer" class="feedback-input hide" value="">
+				<input type="text" id="subj" placeholder="Subject" class="feedback-input" value="">
+				<textarea placeholder="Message" class="feedback-textarea" id="msg"></textarea>
+				<span class="feedback-info" id="comment"></span>
+				<div class="buttons-field clearfix">
+					<button type="button" class="button disabled" id="send">Send</button>
+					<button type="button" class="button btn-cancel disabled" id="cancel">Cancel</button>
+				</div>
+			</div>
+			<div class="red hide" id="error"></div>
+			<div class="feedback-sent hide" id="feedbackSent">
+				<span class="feedback-sent__done" id="feedbackDone"></span>
+				<span class="feedback-sent__title">Securely sent</span>
+				<a class="feedback-sent__link" rel="feedback"></a>
+			</div>
+			<div class="buttons-field clearfix">
+				<button type="button" class="button btn-cancel btn-end hide" id="close">Close</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="/js/safe.min.js"></script>
+	<script src="/js/feedback/inner.js"></script>
+
+</body>
+
+</html>
